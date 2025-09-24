@@ -1,0 +1,53 @@
+{
+  "title": "Important Information",
+  "blocks": [
+    { "type": "heading", "content": "Step 1 – Complete the Registration Form" },
+    { "type": "paragraph", "content": "● Agreement Confirmation:" },
+    { "type": "paragraph", "content": "Please check the box to confirm: “I have carefully read and fully agree to all terms of the Agreement and Release, and I give my consent for the student to participate in the 2026 SHS Trip Around Taiwan – Lunar New Year Cultural Exchange.”" },
+    { "type": "paragraph", "content": "● Upload a Passport Copy:" },
+    { "type": "paragraph", "content": "Make sure the passport’s photo page and expiration date are clearly visible. Your passport must be valid for at least 6 months after the trip ends." },
+    { "type": "heading", "content": "Step 2 – Submit Your Deposit" },
+    { "type": "paragraph", "content": "To reserve your spot, please submit a USD 500 deposit per person (airfare included) via the registration form:" },
+    { "type": "link", "content": "🔗 Deposit & Registration Form", "url": "https://docs.google.com/forms/d/181A3zPZ1Uz8d6p37tw9dTlJb8cO7yXJw1zs01VXaczg/edit?usp=drive_web&ouid=114629800055913372206" },
+    { "type": "paragraph", "content": "Payment Methods:" },
+    { "type": "list", "content": [
+        "Zelle",
+        "Name: KINGS INTERNATIONAL CULTURAL & CREATION",
+        "Zelle ID: jekicc2020@gmail.com"
+    ]},
+    { "type": "list", "content": [
+        "Bank Transfer (Chase Bank)",
+        "Account Number: 922086209",
+        "Routing Number: 322271627",
+        "SWIFT Code: CHASUS33"
+    ]},
+    { "type": "paragraph", "content": "Once both your form and deposit are received, your spot will be confirmed. Get ready for an unforgettable cultural adventure!" },
+    { "type": "heading", "content": "Insurance Information" },
+    { "type": "paragraph", "content": "1. Taiwan Group Travel Insurance Coverage (Included)" },
+    { "type": "list", "content": [
+        "Accidental Death Benefit: NTD 3,000,000 / traveler",
+        "Accidental Disability Benefit: up to NTD 3,000,000 / traveler",
+        "Accidental Medical Expenses: NTD 200,000 / traveler",
+        "Travel Document Loss/Replacement: up to NTD 2,000 / traveler",
+        "Emergency Expenses for Family Members: up to NTD 100,000 / traveler",
+        "Maximum Benefit per Accident: NTD 100,000"
+    ]},
+    { "type": "paragraph", "content": "2. U.S. IMG Insurance (Included)" },
+    { "type": "list", "content": [
+        "Maximum Coverage Limit: up to USD 500,000",
+        "Coverage Includes:",
+        "Accidental Death & Dismemberment",
+        "Accident & Sickness Medical Expenses",
+        "Emergency Medical Evacuation & Repatriation (per policy terms)",
+        "Additional benefits subject to IMG policy conditions"
+    ]},
+    { "type": "paragraph", "content": "3. Optional Trip Cancellation Insurance" },
+    { "type": "list", "content": [
+        "Not included in travel cose",
+        "To add, please contact:"
+    ]},
+    { "type": "paragraph", "content": "Charlene Yeh" },
+    { "type": "paragraph", "content": "📞(540) 364-2726" },
+    { "type": "link", "content": "🌐My IMG Website", "url": "https://www.imglobal.com/img-producer-insurance-plans?imgac=543497&app_method=2&svi=1" }
+  ]
+}

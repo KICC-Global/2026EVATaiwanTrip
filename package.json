@@ -1,0 +1,38 @@
+{
+  "name": "2026-shs-taiwan-trip",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npx ts-node scripts/generate-html-content.ts && npx ts-node scripts/sync-public-docs.ts && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "extract:notes": "node scripts/extract-note-remarks.mjs",
+    "verify:notes": "node scripts/verify-note-remarks.mjs",
+    "inject:notes": "node scripts/update-note-remarks-html.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.395.0",
+    "next": "14.2.32",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/opencc-js": "^1.0.3",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/pngjs": "^6.0.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.32",
+    "opencc-js": "^1.0.5",
+    "pdf-parse": "^1.1.1",
+    "pngjs": "^7.0.0",
+    "postcss": "^8",
+    "tailwindcss": "3.4.13",
+    "typescript": "^5"
+  }
+}

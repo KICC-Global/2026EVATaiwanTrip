@@ -1,0 +1,6 @@
+{
+  "title": "旅程精彩瞬间",
+  "subtitle": "透过镜头，回味旅途中的每一份感动。",
+  "filters": { "all": "全部", "day": "天数", "theme": "主题" },
+  "tags": { "d0": "Day 0", "d1": "Day 1", "d2": "Day 2", "d3": "Day 3", "d4": "Day 4", "d5": "Day 5", "d6": "Day 6", "d7": "Day 7", "d8": "Day 8" }
+}

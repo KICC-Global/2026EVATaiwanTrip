@@ -1,0 +1,56 @@
+{
+  "title": "A 9-Day Journey Through Time",
+  "subtitle": "From urban bustle to mountain tranquility, every day is a new discovery.",
+  "modal": {
+    "close": "Close",
+    "details": "Detailed Introduction",
+    "gallery": "Trip Photos"
+  },
+  "days": [
+    {
+      "day": "Day 1 (Feb 13, Fri)",
+      "title": "Departure",
+      "details": "Fly from San Francisco (SFO) to Taiwan Taoyuan (TPE) on China Airlines flight CI003."
+    },
+    {
+      "day": "Day 2 (Feb 14, Sat)",
+      "title": "On the plane: crossing the International Date Line",
+      "details": "The magical power of the International Date Line allows us to leap over the time difference and arrive directly at Taiwan's early morning. Take advantage of this airborne time to rest well and recharge for the upcoming cultural exploration and exciting adventures."
+    },
+    {
+      "day": "Day 3 (Feb 15, Sun)",
+      "title": "Taipei: Where Tradition Meets Modernity",
+      "details": "Arrive in Taiwan, explore Dihua Street's New Year market, and ascend Taipei 101."
+    },
+    {
+      "day": "Day 4 (Feb 16, Mon)",
+      "title": "Taoyuan: Taiwanese New Year Festival Experience",
+      "details": "Experience the festive traditions of both traditional markets and modern malls, make snacks by hand, and gather together to enjoy the warmth of a reunion dinner."
+    },
+    {
+      "day": "Day 5 (Feb 17, Tue)",
+      "title": "Miaoli: Crafts & Country Fun",
+      "details": "Experience making oil-paper umbrellas and enjoy the fun of strawberry picking."
+    },
+    {
+      "day": "Day 6 (Feb 18, Wed)",
+      "title": "Chiayi: Cloud Walk & Tea Aroma",
+      "details": "Challenge the Taiping Suspension Bridge, taste high-mountain tea, and explore an old street."
+    },
+    {
+      "day": "Day 7 (Feb 19, Thu)",
+      "title": "Tainan: Charm of the Ancient Capital",
+      "details": "Visit Tainan Confucius Temple, Anping Fort, and taste traditional snacks on an old street."
+    },
+    {
+      "day": "Day 8 (Feb 20, Fri)",
+      "title": "Tainan Outskirts: Hot Springs & Natural Wonders",
+      "details": "Experience the Guanziling mud hot spring and see the Water and Fire Cave natural wonder."
+    },
+    {
+      "day": "Day 9 (Feb 21, Sat)",
+      "title": "Taoyuan: Cultural Fusion & Preparation",
+      "details": "Experience Yunnan culture, shop for souvenirs, and prepare for departure."
+    }
+  ]
+}

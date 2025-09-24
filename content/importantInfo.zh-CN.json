@@ -1,0 +1,40 @@
+{
+  "title": "重要信息",
+  "blocks": [
+    { "type": "heading", "content": "第一步 – 完成报名表格" },
+    { "type": "paragraph", "content": "● 同意书确认：" },
+    { "type": "paragraph", "content": "请勾选此框以确认：「我已仔细阅读并完全同意《协议与免责声明》的所有条款，并同意该学生参加 2026 SHS 环台之旅 - 农历新年文化交流。」" },
+    { "type": "paragraph", "content": "● 上传护照复印件：" },
+    { "type": "paragraph", "content": "请确保护照的照片页和到期日清晰可见。您的护照在旅程结束后必须至少还有 6 个月的有效期。" },
+    { "type": "heading", "content": "第二步 – 提交订金" },
+    { "type": "paragraph", "content": "为预留您的名額，请透过报名表提交每人 500 美元的订金（含机票）：" },
+    { "type": "link", "content": "🔗 订金与报名表", "url": "https://docs.google.com/forms/d/181A3zPZ1Uz8d6p37tw9dTlJb8cO7yXJw1zs01VXaczg/edit?usp=drive_web&ouid=114629800055913372206" },
+    { "type": "paragraph", "content": "付款方式：" },
+    { "type": "list", "content": [
+        "Zelle",
+        "收款人姓名：KINGS INTERNATIONAL CULTURAL & CREATION",
+        "Zelle ID：jekicc2020@gmail.com"
+    ]},
+    { "type": "list", "content": [
+        "银行转帐 (Chase Bank)",
+        "帐户号码：922086209",
+        "银行代码 (Routing Number)：322271627",
+        "SWIFT 代码：CHASUS33"
+    ]},
+    { "type": "paragraph", "content": "收到您的表格和订金后，您的名额即获确认。准备好迎接一场难忘的文化冒险吧！" },
+    { "type": "heading", "content": "保险信息" },
+    { "type": "paragraph", "content": "自选行程取消保险" },
+    { "type": "paragraph", "content": "如果您想增加行程取消保险，请联系：Charlene Yeh" },
+    { "type": "paragraph", "content": "📞 (510) 364-2726" },
+    { "type": "paragraph", "content": "注意：行程取消保险不包含在旅费中。" },
+    { "type": "paragraph", "content": "内含的台湾团体旅游保险范围：" },
+    { "type": "list", "content": [
+        "意外身故理赔 – 每位旅客人民币 3,000,000 元",
+        "意外伤残理赔 – 每位旅客最高人民币 3,000,000 元",
+        "意外医疗费用 – 每位旅客人民币 200,000 元",
+        "旅行证件遗失/补办 – 每位旅客最高人民币 2,000 元",
+        "家属紧急处理费用 – 每位旅客最高人民币 100,000 元",
+        "每次事故最高理赔 – 人民币 100,000 元"
+    ]}
+  ]
+}

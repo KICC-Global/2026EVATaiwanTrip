@@ -1,0 +1,12 @@
+{
+  "title": "Trip Highlights",
+  "subtitle": "Relive every touching moment of the journey through the lens.",
+  "filters": {
+    "all": "All",
+    "day": "Day",
+    "theme": "Theme"
+  },
+  "tags": {
+    "d0": "Day0", "d1": "Day1", "d2": "Day2", "d3": "Day3", "d4": "Day4", "d5": "Day5", "d6": "Day6", "d7": "Day7", "d8": "Day8"
+  }
+}

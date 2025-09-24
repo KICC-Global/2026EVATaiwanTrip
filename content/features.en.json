@@ -1,0 +1,9 @@
+{
+  "title": "One Journey, Four Experiences",
+  "items": [
+    { "icon": "Palette", "title": "Deep-Dive Visit to Tech Leaders", "desc": "Step into TSMC and connect with local schools to get close to the front line of AI and semiconductors—an immersive day from industry to campus." },
+    { "icon": "Puzzle", "title": "Cultural Crafts × Flavor Memories", "desc": "DIY at Guangxing Paper Mill, wheel-throwing in Yingge ceramics, and making Kuo Yuan Ye pineapple cakes—bringing century-old crafts and Taiwanese flavors home." },
+    { "icon": "Map", "title": "Mountains & Sea Ecology Panorama", "desc": "Sun Moon Lake boat cruise and cable car, Formosan Aboriginal Culture Village, Fangyuan intertidal oyster-cart experience, and Alishan forest trails—collect it all from lake gleam to sea of clouds." },
+    { "icon": "ShieldCheck", "title": "Smooth & Worry-Free Logistics", "desc": "High-speed rail connections and private coach transfers, 5★/4★ hotels, and full-time chaperone with safety protocols—learning and travel with zero hassle." }
+  ]
+}

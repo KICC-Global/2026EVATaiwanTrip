@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FFFBF5;
+  color: #343A40;
+  font-family: 'Inter', 'Noto Sans TC', sans-serif;
+}
+
+/* For Webkit browsers like Chrome, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFBF5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C92A2A;
+  border-radius: 10px;
+  border: 2px solid #FFFBF5;
+}
+
+/* Document-like HTML styling for note/remarks pages */
+.doc-html {
+  line-height: 1.8;
+  font-size: 1rem; /* 16px base */
+}
+.doc-html h1,
+.doc-html h2,
+.doc-html h3,
+.doc-html h4 {
+  color: #C92A2A; /* brand red for headings */
+  font-weight: 700;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.doc-html h1 { font-size: 1.875rem; /* 30px */ }
+.doc-html h2 { font-size: 1.5rem;   /* 24px */ }
+.doc-html h3 { font-size: 1.25rem;  /* 20px */ }
+.doc-html h4 { font-size: 1.125rem; /* 18px */ }
+
+.doc-html p {
+  margin: 0.5rem 0 0.75rem 0;
+}
+
+.doc-html ul,
+.doc-html ol {
+  margin: 0.5rem 0 0.75rem 1.25rem;
+  padding-left: 1rem;
+}
+.doc-html ul { list-style-type: disc; }
+.doc-html ol { list-style-type: decimal; }
+.doc-html li { margin: 0.25rem 0; }
+
+.doc-html strong { font-weight: 700; }
+.doc-html em { font-style: italic; }
+.doc-html u { text-decoration: underline; }
+
+.doc-html a { color: #1d4ed8; text-decoration: underline; }
+.doc-html hr { border: 0; border-top: 1px solid #e5e7eb; margin: 1rem 0; }
+
+/* Tables if present in the document */
+.doc-html table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+.doc-html th,
+.doc-html td {
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem 0.75rem;
+}
+.doc-html th { background: #fff5f5; font-weight: 700; }
+
+/* Notes & Remarks: content headings in black (keep page title red) */
+.doc-notes h1,
+.doc-notes h2,
+.doc-notes h3,
+.doc-notes h4 {
+  color: #000;
+}
