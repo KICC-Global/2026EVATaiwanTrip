@@ -35,12 +35,7 @@
     },
     {
       "type": "paragraph",
-      "content": "為確保您的名額，請透過註冊表提交每人1,600美元訂金（含機票）："
-    },
-    {
-      "type": "link",
-      "content": "🔗 訂金與註冊表",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdu8_wULSQBhaQKILgsiMJc-ppD0FQaBG2IVgQGFhHI5KyNEA/viewform?usp=dialog"
+      "content": "為確保您的名額，請透過註冊表提交每人訂金"
     },
     {
       "type": "heading",
@@ -84,7 +79,7 @@
     {
       "type": "link",
       "content": "查看行程",
-      "url": "https://2026The Meadows School.vercel.app/#itinerary"
+      "url": "https://2026TheMeadowsSchool.vercel.app/#itinerary"
     },
     {
       "type": "paragraph",
@@ -97,7 +92,7 @@
     {
       "type": "link",
       "content": "查看同意書",
-      "url": "https://2026The Meadows School.vercel.app/agreement"
+      "url": "https://2026TheMeadowsSchool.vercel.app/agreement"
     },
     {
       "type": "paragraph",
@@ -106,7 +101,7 @@
     {
       "type": "link",
       "content": "查看備註",
-      "url": "https://2026The Meadows School.vercel.app/note-remarks"
+      "url": "https://2026TheMeadowsSchool.vercel.app/note-remarks"
     },
     {
       "type": "heading",

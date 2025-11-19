@@ -15,7 +15,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Cost is per person based on double occupancy. Triple occupancy rate is the same as double occupancy. Single occupancy requires a single-room supplement fee of USD 1,500."
+      "content": "Cost is per person based on double occupancy. Triple occupancy rate is the same as double occupancy. Single occupancy requires a single-room supplement fee."
     },
     {
       "type": "heading",
@@ -60,7 +60,7 @@
     },
     {
       "type": "paragraph",
-      "content": "After completing the registration form, each participant must pay a total of USD 1,600 (including a USD 500 deposit and USD 1,100 for airfare) in full by October 30, 2025 to confirm participation. Participants are responsible for ensuring that the full amount is received, including any applicable bank fees."
+      "content": "After completing the registration form, each participant must pay a total deposit by October 30, 2025 to confirm participation. Participants are responsible for ensuring that the full amount is received, including any applicable bank fees."
     },
     {
       "type": "paragraph",
@@ -98,11 +98,11 @@
         ],
         [
           "18-20",
-          "$4300"
+          " "
         ],
         [
           "21+",
-          "$4200"
+          " "
         ]
       ]
     },
@@ -112,15 +112,15 @@
     },
     {
       "type": "paragraph",
-      "content": "1. Deposit (First Payment): An initial deposit of USD 1600 is due on or before October 30, 2025 to secure a reservation."
+      "content": "1. Deposit (First Payment): An initial deposit is due on or before October 30, 2025 to secure a reservation."
     },
     {
       "type": "paragraph",
-      "content": "2. Second Payment: A payment of USD 1,000 is due on or before November 30, 2025."
+      "content": "2. Second Payment: A payment   is due on or before November 30, 2025."
     },
     {
       "type": "paragraph",
-      "content": "3. Final Balance (Third Payment): The remaining balance of USD 1,700 is due on or before January 31, 2026. (Note: If the number of participants exceeds 21, the remaining balance required will be USD 1,600.)"
+      "content": "3. Final Balance (Third Payment): The remaining balance   is due on or before January 31, 2026. (Note: If the number of participants exceeds 21, the remaining balance required.)"
     },
     {
       "type": "paragraph",
@@ -141,7 +141,7 @@
     {
       "type": "list",
       "content": [
-        "Late payment (1–10 days overdue): USD 50 late fee per invoice",
+        "Late payment (1–10 days overdue):   late fee per invoice",
         "Non-payment by due date: Cancellation with loss of deposit"
       ]
     },

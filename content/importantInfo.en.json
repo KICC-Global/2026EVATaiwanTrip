@@ -35,12 +35,7 @@
     },
     {
       "type": "paragraph",
-      "content": "To reserve your spot, please submit a $1,600 USD deposit per person (airfare included) via the registration form:"
-    },
-    { 
-      "type": "link", 
-      "content": "🔗 Deposit & Registration Form", 
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdu8_wULSQBhaQKILgsiMJc-ppD0FQaBG2IVgQGFhHI5KyNEA/viewform?usp=dialog" 
+      "content": "To reserve your spot, please submit deposit per via the registration form"
     },
     {
       "type": "heading",
@@ -84,7 +79,7 @@
     {
       "type": "link",
       "content": "View Itinerary",
-      "url": "https://2026The Meadows School.vercel.app/#itinerary"
+      "url": "https://2026TheMeadowsSchool.vercel.app/#itinerary"
     },
     {
       "type": "paragraph",
@@ -97,7 +92,7 @@
     {
       "type": "link",
       "content": "View Agreement",
-      "url": "https://2026The Meadows School.vercel.app/agreement"
+      "url": "https://2026TheMeadowsSchool.vercel.app/agreement"
     },
     {
       "type": "paragraph",
@@ -106,7 +101,7 @@
     {
       "type": "link",
       "content": "View Notes",
-      "url": "https://2026The Meadows School.vercel.app/note-remarks"
+      "url": "https://2026TheMeadowsSchool.vercel.app/note-remarks"
     },
     {
       "type": "heading",
