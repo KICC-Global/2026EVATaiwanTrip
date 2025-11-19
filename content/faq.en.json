@@ -1,171 +1,177 @@
-{
+﻿{
   "title": "Frequently Asked Questions",
   "subtitle": "Answering all your questions about this journey.",
   "searchPlaceholder": "Search questions...",
   "categories": {
-    "trip": "Trip-Specific Questions",
-    "general": "General Policy Questions"
+    "general_information": "General Information",
+    "passport_visa": "Passport & Visa",
+    "flights_travel": "Flights & Travel",
+    "health_safety": "Health & Safety",
+    "communication": "Communication",
+    "fees_payment": "Fees & Payment",
+    "lodging_rooming": "Lodging & Rooming",
+    "food_meals": "Food & Meals",
+    "packing_dress_code": "Packing & Dress Code",
+    "program_activities": "Program Activities",
+    "insurance": "Insurance",
+    "parents_concerns": "Parents' Concerns",
+    "extension_opportunities_kicc_mission": "Extension Opportunities & KICC Mission"
   },
   "items": [
     {
-      "q": "Does my child need a visa to visit Taiwan?",
-      "a": "U.S. passport holders do not need a visa for stays up to 90 days. The passport must be valid for at least 6 months beyond the date of entry.",
-      "category": "general"
+      "q": "What are the trip dates?",
+      "a": "The trip is scheduled for 10 days, from April 2 – April 11, 2026.",
+      "category": "general_information"
     },
     {
-      "q": "My child's passport photo no longer resembles them. Should we renew early?",
-      "a": "Yes, if your child's appearance has changed significantly, it is highly recommended to renew the passport early, even if it has not yet expired.",
-      "category": "general"
+      "q": "Who is the trip for?",
+      "a": "This trip is open to The Meadows School students in grades 9–12. No prior Chinese language proficiency is required, but participants must possess an open, respectful mindset towards cultural exchange.",
+      "category": "general_information"
+    },
+    {
+      "q": "What are the educational goals?",
+      "a": "In a safe and nurturing environment, students will immerse themselves in Taiwan's rich cultural traditions, developing focus through tea ceremony practices, fostering creativity through hands-on craftsmanship, building environmental awareness through ecological exploration, and establishing the foundation to become future leaders with global perspectives.",
+      "category": "general_information"
+    },
+    {
+      "q": "Does my child need a visa to visit Taiwan?",
+      "a": "U.S. passport holders do not need a visa for stays up to 90 days in Taiwan. However, the passport must be valid for at least 6 months beyond the date of entry.",
+      "category": "passport_visa"
+    },
+    {
+      "q": "My child’s passport photo no longer resembles them. Should we renew early?",
+      "a": "Yes, it is highly recommended to renew the passport early if your child's current appearance significantly differs from their passport photo, even if the passport has not yet expired.",
+      "category": "passport_visa"
     },
     {
       "q": "Will teachers accompany students on flights?",
-      "a": "Yes, teachers and chaperones will accompany the group throughout the entire trip.",
-      "category": "trip"
+      "a": "Yes, teachers will accompany the group throughout the entire trip, from the initial departure until the return.",
+      "category": "flights_travel"
     },
     {
       "q": "What if my child misses the group flight?",
-      "a": "Parents must rebook and cover any associated costs. The program staff will assist the student in rejoining the group in Taiwan.",
-      "category": "trip"
-    },
-    {
-      "q": "Will students always stay together as a group?",
-      "a": "Yes, students will move in groups under supervision. During limited free time, the buddy system applies.",
-      "category": "trip"
+      "a": "Parents are responsible for rebooking the flight and covering any associated costs. The program staff will provide assistance to help the student rejoin the group in Taiwan.",
+      "category": "flights_travel"
     },
     {
       "q": "What if my child gets sick or injured?",
-      "a": "For minor issues, teachers will provide first aid. For serious conditions, the student will be taken to a hospital, accompanied by a teacher, and parents will be contacted immediately. Taiwan has excellent healthcare with English-speaking doctors.",
-      "category": "general"
+      "a": "For minor issues, teachers will provide first aid. For serious conditions, the student will be immediately taken to a hospital, with a teacher accompanying them. Parents will be contacted immediately, and travel insurance will help support the necessary care. Taiwan has an excellent healthcare system, and English-speaking doctors are available.",
+      "category": "health_safety"
     },
     {
-      "q": "My child has a severe allergy. Can you accommodate?",
-      "a": "Yes, if informed in advance. Dining venues will be notified, an allergy badge may be prepared, and extra precautions will be taken.",
-      "category": "general"
+      "q": "My child has a severe peanut allergy. Can you accommodate?",
+      "a": "Yes, accommodations can be made if informed in advance. Dining venues will be notified, an allergy badge can be prepared for the student, and extra care will be taken, especially in high-risk environments like night markets.",
+      "category": "health_safety"
     },
     {
       "q": "Is Taiwan safe?",
-      "a": "Yes, Taiwan is consistently ranked among the world's safest regions. Safety measures include a buddy system, daily roll calls, curfews, emergency cards, continuous teacher supervision, and coordination with the American Institute in Taiwan (AIT).",
-      "category": "general"
-    },
-    {
-      "q": "What if there is a natural disaster (e.g., earthquake, typhoon)?",
-      "a": "Taiwan has excellent emergency response systems. Teachers and staff will follow safety protocols, ensure student safety, and contact parents immediately.",
-      "category": "general"
+      "a": "Yes, Taiwan is consistently ranked among the world’s safest regions, known for its low crime rates and well-organized public areas. Safety measures implemented for the trip include a buddy system, daily roll calls, curfews, emergency cards, continuous teacher supervision, and coordination with the American Institute in Taiwan (AIT).",
+      "category": "health_safety"
     },
     {
       "q": "How can I contact my child during the trip?",
-      "a": "The coordinator's phone number (directly dialable from the U.S.) and Taiwan emergency numbers will be provided. All hotels have Wi-Fi. Students may use international roaming or purchase a local SIM/eSIM. Daily scheduled contact times will be arranged.",
-      "category": "general"
+      "a": "The KICC coordinator’s phone number (directly dialable from the U.S.) and Taiwan emergency numbers will be provided. All hotels offer Wi-Fi access. Students also have the option to use international roaming or purchase a local Taiwan SIM card/eSIM for personal communication. There will be daily scheduled contact times.",
+      "category": "communication"
     },
     {
-      "q": "Will students have access to Wi-Fi/data during the trip?",
-      "a": "Yes, all hotels have Wi-Fi. Students may also purchase local SIM/eSIM cards for personal data use.",
-      "category": "general"
+      "q": "What is the total cost and what’s included?",
+      "a": "The total cost is approximately USD $4,300. This includes international airfare, in-country transportation, lodging, all meals, comprehensive insurance, entrance fees for activities, preparatory materials, and souvenirs. It excludes passport fees, personal shopping, and personal pocket money.",
+      "category": "fees_payment"
     },
     {
-      "q": "What is included in the program fee?",
-      "a": "The fee includes international airfare, in-country transportation, lodging, all meals, comprehensive insurance, entrance fees, bilingual guides, preparatory materials, and souvenirs. It does not include passport fees, personal shopping, or pocket money.",
-      "category": "trip"
+      "q": "Payment Schedule?",
+      "a": "1. Deposit (First Payment): An initial deposit of USD 1600 is due on or before October 30, 2025 to secure a reservation.\n\n2. Second Payment: A payment of USD 1,000 is due on or before November 30, 2025.\n\n3. Final Balance (Third Payment): The remaining balance of USD 1,700 is due on or before January 31, 2026. (Note: If the number of participants exceeds 21, the remaining balance required will be USD 1,600.)\n\n4. Late Enrollment: For enrollments made after January 31, 2026, the full program fee shall be payable in full at the time of enrollment.\n\n5. Airfare and Airline Policies: Airfare is included in the program fee. All airline-related cancellation fees and conditions are governed by the respective airline's policies and shall be the responsibility of the participant. For enrollments made after October 30, 2025, airfare prices are subject to change. Any increase in airfare shall be borne by the participant.",
+      "category": "fees_payment"
     },
     {
       "q": "What payment methods are accepted?",
-      "a": "Zelle (no processing fee), PayPal (credit card, +7% processing fee), or wire transfer. Venmo is not accepted.",
-      "category": "general"
+      "a": "Zelle: No processing fee. Payments can be sent to Email jekicc2020@gmail.com.\nPayPal (credit card): A +7% processing fee applies. A link will be provided upon request.\nWire transfer: The full amount, including any intermediary bank fees, must be remitted.\nVenmo: Not accepted.",
+      "category": "fees_payment"
     },
     {
-      "q": "Can my child have New Taiwan Dollars (NTD) upon arrival?",
-      "a": "Yes. KICC can assist before departure. Parents may Zelle the desired exchange amount in advance, and students will receive NTD upon arrival in Taiwan.",
-      "category": "general"
+      "q": "What if I overpaid?",
+      "a": "Any extra amount paid will be credited towards your final payment.",
+      "category": "fees_payment"
     },
     {
-      "q": "How much pocket money should my child bring?",
-      "a": "Around USD $300 (in NTD 9000) is usually sufficient for snacks, small souvenirs, and personal shopping.",
-      "category": "general"
+      "q": "When will I receive my receipt?",
+      "a": "You will receive an electronic receipt via email within 72 hours of payment.",
+      "category": "fees_payment"
+    },
+    {
+      "q": "How do I ensure my Zelle/wire transfer is credited?",
+      "a": "To ensure proper crediting, please include the student’s full name, the program name (The Meadows School Taiwan 2026), and the payment purpose (deposit/final payment) in your transfer details. Additionally, email a screenshot of the transfer confirmation.",
+      "category": "fees_payment"
+    },
+    {
+      "q": "Do you disclose students’ addresses?",
+      "a": "No. Only students’ names are shared; addresses are not disclosed, in accordance with our updated privacy policy.",
+      "category": "fees_payment"
+    },
+    {
+      "q": "How do I confirm payment or registration?",
+      "a": "You will receive a confirmation email and a receipt after payment. You may also email your bank or PayPal proof of transaction for verification.",
+      "category": "fees_payment"
     },
     {
       "q": "Who will my child room with?",
-      "a": "Students will be assigned to rooms by gender, with 2 students per room at designated safe hotels. Teachers will be on the same floor as students.",
-      "category": "trip"
+      "a": "Students will be assigned to rooms by gender, with 2 students per room at designated safe hotels (e.g., Kuva Chateau, ShanShun Hotel, Fushin Hotel). Rooming lists will be sent out before departure. Teachers will be on the same floor as students.",
+      "category": "lodging_rooming"
     },
     {
       "q": "What meals are provided?",
-      "a": "Daily meals are included, comprising hotel breakfasts, local restaurant lunches, and specialty dinners. With advance notice, vegetarian, halal, gluten-free, and allergy-friendly diets can be accommodated.",
-      "category": "trip"
+      "a": "Daily meals are included, comprising hotel breakfasts, local restaurant lunches, and specialty dinners. With advance notice, we can accommodate vegetarian, halal, gluten-free diets, and specific allergies.",
+      "category": "food_meals"
     },
     {
       "q": "What should my child pack?",
-      "a": "March temperatures in Taiwan typically range from 13–23 °C (55–73 °F). Students should bring layered clothing, a jacket, rain gear, comfortable walking shoes, one semi-formal outfit (for banquets or special events), and personal medications.",
-      "category": "trip"
+      "a": "April temperatures in Taiwan are around 18–27°C, with average relative humidity of about 75–80%. Northern and eastern regions have higher precipitation probability, with daily rain chances of around 40–50%; central and southern areas are generally drier. Recommended items to bring:\n- Layered clothing (cooler mornings/evenings, cold indoor air conditioning)\n- Light jacket or windbreaker\n- Rain gear (frequent showers in northern and eastern regions)\n- Comfortable walking shoes (for wet and slippery surfaces)\n- One set of formal attire (for formal meetings or special events)\n- Personal medications and basic sun protection (increasing UV intensity)",
+      "category": "packing_dress_code"
     },
     {
       "q": "Is there a dress code?",
-      "a": "Yes, students are required to dress modestly and respectfully when visiting temples and schools.",
-      "category": "trip"
+      "a": "Yes, there is a dress code. Students are required to dress modestly and respectfully when visiting temples and schools.",
+      "category": "packing_dress_code"
     },
     {
-      "q": "What is the luggage allowance?",
-      "a": "Students should follow airline regulations: usually 1 checked bag (23 kg / 50 lbs) and 1 carry-on.",
-      "category": "trip"
+      "q": "What will students do during the trip?",
+      "a": "Students will participate in hands-on cultural workshops (tea ceremony, indigo dyeing, woodcarving, mochi making), visit historical sites and temples, explore natural attractions, and engage in cultural exchange activities with local schools.",
+      "category": "program_activities"
     },
     {
-      "q": "Can students bring laptops or iPads?",
-      "a": "Yes, but they are responsible for their own belongings. Teachers will guide responsible use.",
-      "category": "trip"
-    },
-    {
-      "q": "Do we need an adapter for electronics?",
-      "a": "Taiwan uses Type A/B plugs (same as the U.S.), 110V voltage. No adapter is needed for U.S. devices.",
-      "category": "general"
-    },
-    {
-      "q": "What kind of volunteer work will students do?",
-      "a": "Students may engage in community service such as assisting at schools, cultural centers, or environmental projects. Details will be confirmed before departure.",
-      "category": "trip"
+      "q": "What  traditions will students experience?",
+      "a": "Students will experience traditional Taiwanese tea culture, religious practices at temples and monasteries, traditional crafts like woodcarving and dyeing, Hakka culture, night market traditions, and regional culinary heritage.",
+      "category": "program_activities"
     },
     {
       "q": "Will students have free time?",
-      "a": "Yes, students will have limited supervised free time, such as after dinner, during market visits, and optional activities.",
-      "category": "trip"
+      "a": "Yes, students will have limited supervised free time. This includes 1–2 hours after dinner daily, some group exploration time in markets and night markets, and optional activities. All free time will be under teacher supervision in safe areas.",
+      "category": "program_activities"
     },
     {
-      "q": "Are there shopping opportunities?",
-      "a": "Yes, the itinerary includes several shopping opportunities at places such as Dihua Street, Global Mall, SOGO Department Store, night markets, and creative districts.",
-      "category": "trip"
-    },
-    {
-      "q": "Are there academic tasks?",
-      "a": "Yes, experiential academic tasks are included, such as daily reflection journals, cultural challenge tasks, and nightly group discussions.",
-      "category": "trip"
+      "q": "Will there be shopping opportunities?",
+      "a": "Yes, the itinerary includes several shopping opportunities at locations such as Dihua Street, Global Mall, night markets, and cultural & creative street.",
+      "category": "program_activities"
     },
     {
       "q": "How are language barriers addressed?",
-      "a": "The trip includes bilingual guides, assistance from local Taiwanese student buddies, access to translation apps, and visual aids.",
-      "category": "trip"
+      "a": "To facilitate communication, the trip surpport from Local guide teacher assistance from local Taiwanese student buddies, access to translation apps, and visual aids.",
+      "category": "program_activities"
     },
     {
       "q": "Is travel insurance required?",
-      "a": "Yes, comprehensive international travel insurance is included. It covers emergency medical expenses (up to USD $100,000), lost or delayed baggage, trip delays or interruptions, and 24/7 emergency assistance.",
-      "category": "general"
+      "a": "🌏 Patriot Lite Travel Medical Insurance\n\n- Coverage for unexpected illnesses and accidents\n\n- COVID-19 treated the same as any other illness\n\n- Policy limits: US$50,000 – US$1,000,000\n\n- Emergency Medical The Meadows Schoolcuation: up to US$1,000,000\n\n🌏 Taiwan Group Travel Insurance (Per Traveler)\n\n- Accidental Death Benefit – NTD 3,000,000\n\n- Accidental Disability Benefit (max) – NTD 3,000,000\n\n- Accidental Medical Expenses – NTD 200,000\n\n- Travel Document Loss/Replacement – NTD 2,000\n\n- Family Member / Insured Expenses – NTD 100,000 (included above)\n\n- Max Benefit per Accident – NTD 100,000\n\n🌏 Trip Cancellation & Add-On Coverage\n\nTrip Cancellation & Add-On Coverage\n\nAdditional insurance options such as Trip Cancellation, Medical, or Extra Coverage are available upon request.\n\nContact for Assistance:\n\nCharlene Yeh – Insurance Agent\n\n(510) 364-2726\n\n📩cy.socal@gmail.com\n\n<a href=\"https://www.imglobal.com/img-producer-insurance-plans?imgac=543497&app_method=2&svi=1\"> 🌐Add-on insurance (optional)</a>\nsuch as trip cancellation or medical coverage — can be purchased separately.  Here, you can enter your information and get an instant quote.\n\nTrip cancellation insurance is not included in the total travel cost.\nIt must be purchased separately if desired.",
+      "category": "insurance"
     },
     {
-      "q": "How do you handle homesickness or culture shock?",
-      "a": "Teachers will provide regular check-ins and support, group reflection sessions, peer buddy support, and, if necessary, brief contact with family.",
-      "category": "general"
+      "q": "Are there opportunities for further learning or internships after the trip?",
+      "a": "Yes, KICC can assist in arranging various post-trip opportunities:\n- Short-term or long-term internship opportunities in Taiwan (e.g., in education, cultural exchange, non-profit organizations, or creative industries).\n- Mandarin language learning programs (private one-on-one or small group classes, suitable for all proficiency levels).\n- Extended exchange projects with local Taiwanese schools or communities (ideal for summer or pre-college cultural experiences).",
+      "category": "extension_opportunities_kicc_mission"
     },
     {
-      "q": "What happens after the trip?",
-      "a": "After returning, students will submit reflection assignments, participate in a cultural night presentation at school, and receive academic credits or a certificate. They will also be encouraged to continue their language and cultural learning journey.",
-      "category": "trip"
-    },
-    {
-      "q": "Are there opportunities after the trip?",
-      "a": "Yes, KICC can help arrange post-trip opportunities such as internships in education, cultural exchange, non-profit organizations, or creative industries; Mandarin language programs; and extended exchange projects with local schools or communities.",
-      "category": "general"
-    },
-    {
-      "q": "What is KICC's mission?",
-      "a": "KICC is dedicated to promoting Mandarin learning and international educational exchanges, arranging Chinese cultural exploration activities (such as calligraphy, tea ceremonies, and traditional crafts), and building long-term bridges between students and Asian cultures to prepare youth to become global citizens.",
-      "category": "general"
+      "q": "What is KICC’s mission?",
+      "a": "Beyond organizing this Taiwan immersion trip, KICC is dedicated to:\n- Promoting Mandarin learning and international educational exchanges.\n- Arranging Chinese cultural exploration activities (such as calligraphy, tea ceremonies, and traditional crafts).\n- Building a long-term bridge between students and Asian cultures, with the goal of preparing youth to become global citizens.",
+      "category": "extension_opportunities_kicc_mission"
     }
   ]
 }

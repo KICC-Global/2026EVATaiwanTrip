@@ -46,6 +46,7 @@ body {
 
 .doc-html p {
   margin: 0.5rem 0 0.75rem 0;
+  white-space: pre-line; /* preserve \n as line breaks in paragraph content */
 }
 
 .doc-html ul,

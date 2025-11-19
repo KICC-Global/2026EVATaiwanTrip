@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Search, ChevronDown } from 'lucide-react';
 import { FaqContent, FaqItem } from '@/types';
@@ -9,8 +9,72 @@ interface FaqProps {
   content: FaqContent;
 }
 
+const escapeHtml = (value: string) =>
+  value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+
+const sanitizeHref = (href: string) => {
+  const trimmed = href.trim();
+  if (!trimmed) {
+    return '#';
+  }
+
+  if (trimmed.startsWith('#') || trimmed.startsWith('/')) {
+    return trimmed;
+  }
+
+  const lower = trimmed.toLowerCase();
+  if (lower.startsWith('mailto:') || lower.startsWith('tel:')) {
+    return trimmed;
+  }
+
+  try {
+    const parsed = new URL(trimmed);
+    if (parsed.protocol === 'http:' || parsed.protocol === 'https:') {
+      return parsed.toString();
+    }
+  } catch {
+    // fall through to default
+  }
+
+  return '#';
+};
+
+const createAnswerMarkup = (answer: string) => {
+  const anchorRegex = /<a\s+[^>]*href\s*=\s*"([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi;
+  const anchors: Array<{ placeholder: string; href: string; text: string }> = [];
+  let matchIndex = 0;
+
+  const withoutAnchors = answer.replace(anchorRegex, (_, href: string, text: string) => {
+    const placeholder = `__FAQ_ANCHOR_${matchIndex}__`;
+    anchors.push({ placeholder, href, text });
+    matchIndex += 1;
+    return placeholder;
+  });
+
+  const baseEscaped = escapeHtml(withoutAnchors).replace(/\r?\n/g, '<br />');
+
+  const htmlWithAnchors = anchors.reduce((html, anchor) => {
+    const safeHref = sanitizeHref(anchor.href);
+    const safeText = escapeHtml(anchor.text).replace(/\r?\n/g, '<br />');
+    const isExternal = /^https?:/i.test(safeHref);
+    const attributes = isExternal
+      ? `href="${safeHref}" target="_blank" rel="noopener noreferrer"`
+      : `href="${safeHref}"`;
+    const anchorHtml = `<a ${attributes} class="text-brand-red underline break-words">${safeText}</a>`;
+    return html.replace(anchor.placeholder, anchorHtml);
+  }, baseEscaped);
+
+  return { __html: htmlWithAnchors };
+};
+
 const AccordionItem: React.FC<{ item: FaqItem }> = ({ item }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const sanitizedAnswer = useMemo(() => createAnswerMarkup(item.a), [item.a]);
 
   return (
     <div className="border-b border-red-100">
@@ -29,9 +93,10 @@ const AccordionItem: React.FC<{ item: FaqItem }> = ({ item }) => {
         transition={{ duration: 0.3 }}
         className="overflow-hidden"
       >
-        <div className="pb-4 px-2 text-gray-600">
-          {item.a}
-        </div>
+        <div
+          className="pb-4 px-2 text-gray-600 whitespace-pre-line"
+          dangerouslySetInnerHTML={sanitizedAnswer}
+        />
       </motion.div>
     </div>
   );

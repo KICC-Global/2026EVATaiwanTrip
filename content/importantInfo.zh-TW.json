@@ -1,40 +1,187 @@
 {
   "title": "重要資訊",
   "blocks": [
-    { "type": "heading", "content": "第一步 – 完成報名表格" },
-    { "type": "paragraph", "content": "● 同意書確認：" },
-    { "type": "paragraph", "content": "請勾選此框以確認：「我已仔細閱讀並完全同意《協議與免責聲明》的所有條款，並同意該學生參加 2026 SHS 環台之旅 - 農曆新年文化交流。」" },
-    { "type": "paragraph", "content": "● 上傳護照影本：" },
-    { "type": "paragraph", "content": "請確保護照的照片頁和到期日清晰可見。您的護照在旅程結束後必須至少還有 6 個月的有效期。" },
-    { "type": "heading", "content": "第二步 – 提交訂金" },
-    { "type": "paragraph", "content": "為預留您的名額，請透過報名表提交每人 500 美元的訂金（含機票）：" },
-    { "type": "link", "content": "🔗 訂金與報名表", "url": "https://docs.google.com/forms/d/181A3zPZ1Uz8d6p37tw9dTlJb8cO7yXJw1zs01VXaczg/edit?usp=drive_web&ouid=114629800055913372206" },
-    { "type": "paragraph", "content": "付款方式：" },
-    { "type": "list", "content": [
-        "Zelle",
-        "收款人姓名：KINGS INTERNATIONAL CULTURAL & CREATION",
+    {
+      "type": "heading",
+      "content": "2026 The Meadows School 探索·體驗·連結 — 臺灣全球視野沉浸計畫"
+    },
+    {
+      "type": "heading",
+      "content": "步驟1 – 完成註冊表"
+    },
+    {
+      "type": "heading",
+      "content": "同意書確認："
+    },
+    {
+      "type": "paragraph",
+      "content": "請勾選方框以確認："
+    },
+    {
+      "type": "paragraph",
+      "content": "「我已仔細閱讀並完全同意同意書暨免責聲明的所有條款，並同意學生參與2026 The Meadows School 探索·體驗·連結 — 臺灣全球視野沉浸計畫」"
+    },
+    {
+      "type": "heading",
+      "content": "上傳護照影本："
+    },
+    {
+      "type": "paragraph",
+      "content": "請確保護照照片頁面和到期日期清晰可見。您的護照必須在行程結束後至少6個月有效。"
+    },
+    {
+      "type": "heading",
+      "content": "步驟2 – 提交訂金"
+    },
+    {
+      "type": "paragraph",
+      "content": "為確保您的名額，請透過註冊表提交每人1,600美元訂金（含機票）："
+    },
+    {
+      "type": "link",
+      "content": "🔗 訂金與註冊表",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdu8_wULSQBhaQKILgsiMJc-ppD0FQaBG2IVgQGFhHI5KyNEA/viewform?usp=dialog"
+    },
+    {
+      "type": "heading",
+      "content": "付款方式："
+    },
+    {
+      "type": "heading",
+      "content": "Zelle"
+    },
+    {
+      "type": "list",
+      "content": [
+        "戶名：KINGS INTERNATIONAL CULTURAL & CREATION",
         "Zelle ID：jekicc2020@gmail.com"
-    ]},
-    { "type": "list", "content": [
-        "銀行轉帳 (Chase Bank)",
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "銀行轉帳（Chase Bank）"
+    },
+    {
+      "type": "list",
+      "content": [
         "帳戶號碼：922086209",
-        "銀行代碼 (Routing Number)：322271627",
-        "SWIFT 代碼：CHASUS33"
-    ]},
-    { "type": "paragraph", "content": "收到您的表格和訂金後，您的名額即獲確認。準備好迎接一場難忘的文化冒險吧！" },
-    { "type": "heading", "content": "保險資訊" },
-    { "type": "paragraph", "content": "自選行程取消保險" },
-    { "type": "paragraph", "content": "如果您想增加行程取消保險，請聯繫：Charlene Yeh" },
-    { "type": "paragraph", "content": "📞 (510) 364-2726" },
-    { "type": "paragraph", "content": "注意：行程取消保險不包含在旅費中。" },
-    { "type": "paragraph", "content": "內含的台灣團體旅遊保險範圍：" },
-    { "type": "list", "content": [
-        "意外身故理賠 – 每位旅客新台幣 3,000,000 元",
-        "意外失能理賠 – 每位旅客最高新台幣 3,000,000 元",
-        "意外醫療費用 – 每位旅客新台幣 200,000 元",
-        "旅行文件遺失/重置 – 每位旅客最高新台幣 2,000 元",
-        "家屬緊急處理費用 – 每位旅客最高新台幣 100,000 元",
-        "每次事故最高理賠 – 新台幣 100,000 元"
-    ]}
+        "路由號碼：322271627",
+        "SWIFT代碼：CHASUS33"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "一旦收到您的表格和訂金，您的名額將被確認。準備好迎接一次難忘的文化冒險！"
+    },
+    {
+      "type": "heading",
+      "content": "額外資源"
+    },
+    {
+      "type": "paragraph",
+      "content": "2026 The Meadows School臺灣行程"
+    },
+    {
+      "type": "link",
+      "content": "查看行程",
+      "url": "https://2026The Meadows School.vercel.app/#itinerary"
+    },
+    {
+      "type": "paragraph",
+      "content": "飯店資訊：包含在上述行程連結中"
+    },
+    {
+      "type": "paragraph",
+      "content": "同意書（完整版本）"
+    },
+    {
+      "type": "link",
+      "content": "查看同意書",
+      "url": "https://2026The Meadows School.vercel.app/agreement"
+    },
+    {
+      "type": "paragraph",
+      "content": "備註說明"
+    },
+    {
+      "type": "link",
+      "content": "查看備註",
+      "url": "https://2026The Meadows School.vercel.app/note-remarks"
+    },
+    {
+      "type": "heading",
+      "content": "旅遊保險總覽"
+    },
+    {
+      "type": "heading",
+      "content": "🌏 Patriot Lite 旅遊醫療保險"
+    },
+    {
+      "type": "list",
+      "content": [
+        "涵蓋突發疾病與意外事故",
+        "COVID-19 之理賠與一般疾病相同",
+        "保單限額：美金 50,000–1,000,000",
+        "緊急醫療撤離：最高美金 1,000,000"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "🌏 台灣團體旅遊保險（每位旅客）"
+    },
+    {
+      "type": "list",
+      "content": [
+        "意外身故給付－新臺幣 3,000,000",
+        "意外失能給付（最高）－新臺幣 3,000,000",
+        "意外醫療費用－新臺幣 200,000",
+        "旅遊證件遺失／補發－新臺幣 2,000",
+        "家屬／被保險人費用－新臺幣 100,000（含於上列）",
+        "單一事故最高給付－新臺幣 100,000"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "行程取消與加購保障"
+    },
+    {
+      "type": "paragraph",
+      "content": "可依需求加購行程取消、醫療或其他額外保障。"
+    },
+    {
+      "type": "paragraph",
+      "content": "協助聯絡人："
+    },
+    {
+      "type": "paragraph",
+      "content": "Charlene Yeh－保險業務員"
+    },
+    {
+      "type": "list",
+      "content": [
+        "(510) 364-2726",
+        "cy.socal@gmail.com"
+      ]
+    },
+    { 
+      "type": "link", 
+      "content": "🌐附加保險（可選）", 
+      "url": "https://www.imglobal.com/img-producer-insurance-plans?imgac=543497&app_method=2&svi=1" 
+    },
+    {
+      "type": "paragraph",
+      "content": "例如行程取消或醫療保險—可以另外購買。您可以在這裡輸入您的資訊並立即獲得報價。"
+    },
+    {
+      "type": "paragraph",
+      "content": "備註"
+    },
+    {
+      "type": "list",
+      "content": [
+        "行程取消保險未包含在旅費總額內。",
+        "如需此保障，須另行購買。"
+      ]
+    }
   ]
 }

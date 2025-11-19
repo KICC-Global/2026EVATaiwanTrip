@@ -36,7 +36,7 @@
   - 89th Floor Observatory: Panoramic views of Taipei, stunning by day or night
   - Wind Damper: A massive golden sphere engineering marvel that stabilizes the tower against typhoons and earthquakes
   - World Landmark: Taiwan's most iconic skyscraper, blending modern design with cultural symbolism
-  - High-Speed Elevator: Ride to the 89th floor in just 37 seconds
+  - High-Speed ElThe Meadows Schooltor: Ride to the 89th floor in just 37 seconds
   - Multilingual Audio Guide: Learn the stories behind landmarks and Taipei's cityscape
   - Photography: Capture breathtaking views of Taipei Basin and surrounding mountains
   - Souvenir Shopping: Browse unique Taipei 101 collectibles at the observatory gift shop

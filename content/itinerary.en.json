@@ -1,56 +1,66 @@
 {
-  "title": "A 9-Day Journey Through Time",
-  "subtitle": "From urban bustle to mountain tranquility, every day is a new discovery.",
+  "title": "Formosa Craft & Culture Odyssey: An 10-Day Taiwan Deep Dive",
+  "titleUrl": "",
+  "subtitle": "From tea-scented mountain peaks to coastal rock formations, experiencing the perfect fusion of traditional craftsmanship and modern creativity",
+  "introVideo": {
+    "label": "Intro Video",
+    "url": "https://youtu.be/o7O0Smy3jPo?si=yc2o1TZgixXxjj3N"
+  },
   "modal": {
     "close": "Close",
     "details": "Detailed Introduction",
     "gallery": "Trip Photos"
   },
   "days": [
-    {
-      "day": "Day 1 (Feb 13, Fri)",
-      "title": "Departure",
-      "details": "Fly from San Francisco (SFO) to Taiwan Taoyuan (TPE) on China Airlines flight CI003."
-    },
-    {
-      "day": "Day 2 (Feb 14, Sat)",
-      "title": "On the plane: crossing the International Date Line",
-      "details": "The magical power of the International Date Line allows us to leap over the time difference and arrive directly at Taiwan's early morning. Take advantage of this airborne time to rest well and recharge for the upcoming cultural exploration and exciting adventures."
-    },
-    {
-      "day": "Day 3 (Feb 15, Sun)",
-      "title": "Taipei: Where Tradition Meets Modernity",
-      "details": "Arrive in Taiwan, explore Dihua Street's New Year market, and ascend Taipei 101."
-    },
-    {
-      "day": "Day 4 (Feb 16, Mon)",
-      "title": "Taoyuan: Taiwanese New Year Festival Experience",
-      "details": "Experience the festive traditions of both traditional markets and modern malls, make snacks by hand, and gather together to enjoy the warmth of a reunion dinner."
-    },
-    {
-      "day": "Day 5 (Feb 17, Tue)",
-      "title": "Miaoli: Crafts & Country Fun",
-      "details": "Experience making oil-paper umbrellas and enjoy the fun of strawberry picking."
-    },
-    {
-      "day": "Day 6 (Feb 18, Wed)",
-      "title": "Chiayi: Cloud Walk & Tea Aroma",
-      "details": "Challenge the Taiping Suspension Bridge, taste high-mountain tea, and explore an old street."
-    },
-    {
-      "day": "Day 7 (Feb 19, Thu)",
-      "title": "Tainan: Charm of the Ancient Capital",
-      "details": "Visit Tainan Confucius Temple, Anping Fort, and taste traditional snacks on an old street."
-    },
-    {
-      "day": "Day 8 (Feb 20, Fri)",
-      "title": "Tainan Outskirts: Hot Springs & Natural Wonders",
-      "details": "Experience the Guanziling mud hot spring and see the Water and Fire Cave natural wonder."
-    },
-    {
-      "day": "Day 9 (Feb 21, Sat)",
-      "title": "Taoyuan: Cultural Fusion & Preparation",
-      "details": "Experience Yunnan culture, shop for souvenirs, and prepare for departure."
-    }
-  ]
+      {
+        "day": "Day 1 (Apr 2, Thu)",
+        "title": "Departure Journey",
+        "details": "Travel to San Francisco (SFO) and depart at 1:05 on China Airlines flight CI003 bound for Taiwan Taoyuan International Airport (TPE).\nNote: You need to arrive at the airport on April 1 evening for the outbound flight."
+      },
+      {
+        "day": "Day 2 (Apr 3, Fri)",
+        "title": "Taipei: First Taste of Taiwan",
+        "details": "Arrive in Taiwan and immediately immerse in local culture with Maokong Gondola tea experience, ascend Taipei 101 for city views, and relax at Beitou Hot Springs."
+      },
+      {
+        "day": "Day 3 (Apr 4, Sat)",
+        "title": "Northern Coast: Where Sea Meets Sky",
+        "details": "Explore Taiwan's stunning northern coastline featuring Shimen terraced rice fields, the seasonal green reef phenomenon at Laomei, historic Jinshan Old Street, and the famous rock formations at Yehliu Geopark."
+      },
+      {
+        "day": "Day 4 (Apr 5, Sun)",
+        "title": "Miaoli: Hakka Culture & Traditional Crafts",
+        "details": "Experience authentic Hakka culture through temple visits, traditional lei cha tea grinding, hands-on tofu making, and explore Taiwan's renowned woodcarving artistry in Sanyi."
+      },
+      {
+        "day": "Day 5 (Apr 6, Mon)",
+        "title": "Creative Arts & Railway Heritage",
+        "details": "Learn traditional indigo dyeing techniques at Joye Cottage Resort and experience Taiwan's railway history with a railbike adventure at the historic Shengxing Station."
+      },
+      {
+        "day": "Day 6 (Apr 7, Tue)",
+        "title": "Changhua: Coastal Ecology & Ancient Heritage",
+        "details": "Discover marine life at Wanggong's intertidal zone, explore one of Taiwan's most significant temples at Lukang, and take a nostalgic rickshaw tour through centuries-old streets."
+      },
+      {
+        "day": "Day 7 (Apr 8, Wed)",
+        "title": "Chiayi Highlands & Tainan Historic Streets",
+        "details": "Challenge yourself on Taiwan's longest suspension bridge, savor high-mountain tea in misty bamboo plantations, then explore the creative charm of Tainan's historic Shennong Street by night."
+      },
+      {
+        "day": "Day 8 (Apr 9, Thu)",
+        "title": "Tainan: Ancient Capital Treasures",
+        "details": "Visit Taiwan's oldest Confucius Temple to trace educational heritage, explore creative districts in historic lanes, and experience unique mud hot springs with the mystical Water and Fire Cave."
+      },
+      {
+        "day": "Day 9 (Apr 10, Fri)",
+        "title": "Nantou Culture & Night Market Delights",
+        "details": "Learn traditional mochi making, admire modern Buddhist architecture at Chung Tai Chan Monastery, engage in cross-cultural exchange, and experience authentic Taiwanese night market culture."
+      },
+      {
+        "day": "Day 10 (Apr 11, Sat)",
+        "title": "Little Yunnan & Farewell",
+        "details": "Experience Taiwan's multicultural heritage in Longgang's 'Little Yunnan' community, enjoy a final traditional tea ceremony at You Zhu Ju Tea House, then depart Taiwan at 23:30 on China Airlines flight CI004 from TPE, arriving in San Francisco (SFO) at 19:55 the same day."
+      }
+    ]
 }

@@ -1,8 +1,9 @@
-"use client";
+'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
+import Image from 'next/image';
 import { ItineraryItem } from '@/types';
 import { imagesByDay } from '@/lib/images_by_day';
 
@@ -16,16 +17,29 @@ interface ItineraryModalProps {
   onClose: () => void;
 }
 
+const dayNumberPattern = /\d+/;
+
+function extractDayTag(dayLabel?: string | null): string | null {
+  if (typeof dayLabel !== 'string') {
+    return null;
+  }
+  const match = dayLabel.match(dayNumberPattern);
+  return match ? `d${match[0]}` : null;
+}
+
 const ItineraryModal: React.FC<ItineraryModalProps> = ({ item, modalContent, onClose }) => {
   const dialogRef = useRef<HTMLDivElement>(null);
   const prevFocusedRef = useRef<Element | null>(null);
   const [imgIndex, setImgIndex] = useState(0);
   const displayImages = React.useMemo(() => {
-    const match = item.day.match(/Day\s*(\d+)/i);
-    const dayNum = match ? Math.max(1, Math.min(9, parseInt(match[1], 10))) : null;
-    const tag = dayNum ? (`d${dayNum}` as keyof typeof imagesByDay) : null;
-    const imgs = tag && imagesByDay[tag] ? imagesByDay[tag] : item.images || [];
-    return imgs;
+    if (item.images && item.images.length > 0) {
+      return item.images;
+    }
+    const tag = extractDayTag(item.day);
+    if (tag && imagesByDay[tag]) {
+      return imagesByDay[tag];
+    }
+    return [];
   }, [item]);
 
   useEffect(() => {
@@ -158,10 +172,12 @@ const ItineraryModal: React.FC<ItineraryModalProps> = ({ item, modalContent, onC
                 <div className="relative bg-white rounded-lg shadow-md overflow-hidden md:h-[56vh] flex items-center justify-center">
                   {displayImages && displayImages.length > 0 ? (
                     <>
-                      <img
+                      <Image
                         src={displayImages[imgIndex]}
                         alt={`${item.title} photo ${imgIndex + 1}`}
-                        className="block max-w-full h-auto max-h-[56vh] w-auto object-contain"
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="object-contain"
                       />
                       {displayImages.length > 1 && (
                         <>
@@ -203,4 +219,3 @@ const ItineraryModal: React.FC<ItineraryModalProps> = ({ item, modalContent, onC
 };
 
 export default ItineraryModal;
-

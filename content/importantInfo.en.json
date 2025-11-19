@@ -1,53 +1,187 @@
 {
   "title": "Important Information",
   "blocks": [
-    { "type": "heading", "content": "Step 1 – Complete the Registration Form" },
-    { "type": "paragraph", "content": "● Agreement Confirmation:" },
-    { "type": "paragraph", "content": "Please check the box to confirm: “I have carefully read and fully agree to all terms of the Agreement and Release, and I give my consent for the student to participate in the 2026 SHS Trip Around Taiwan – Lunar New Year Cultural Exchange.”" },
-    { "type": "paragraph", "content": "● Upload a Passport Copy:" },
-    { "type": "paragraph", "content": "Make sure the passport’s photo page and expiration date are clearly visible. Your passport must be valid for at least 6 months after the trip ends." },
-    { "type": "heading", "content": "Step 2 – Submit Your Deposit" },
-    { "type": "paragraph", "content": "To reserve your spot, please submit a USD 500 deposit per person (airfare included) via the registration form:" },
-    { "type": "link", "content": "🔗 Deposit & Registration Form", "url": "https://docs.google.com/forms/d/181A3zPZ1Uz8d6p37tw9dTlJb8cO7yXJw1zs01VXaczg/edit?usp=drive_web&ouid=114629800055913372206" },
-    { "type": "paragraph", "content": "Payment Methods:" },
-    { "type": "list", "content": [
-        "Zelle",
+    {
+      "type": "heading",
+      "content": "2026 The Meadows School Explore. Experience. Connect. — Taiwan Immersion for Global Perspectives"
+    },
+    {
+      "type": "heading",
+      "content": "Step 1 – Complete the Registration Form"
+    },
+    {
+      "type": "heading",
+      "content": "Agreement Confirmation:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Please check the box to confirm:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"I have carefully read and fully agreed to all terms of the Agreement and Release, and I give my consent for the student to participate in the 2026 The Meadows School Explore. Experience. Connect. — Taiwan Immersion for Global Perspectives\""
+    },
+    {
+      "type": "heading",
+      "content": "Upload a Passport Copy:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Make sure the passport's photo page and expiration date are clearly visible. Your passport must be valid for at least 6 months after the trip ends."
+    },
+    {
+      "type": "heading",
+      "content": "Step 2 – Submit Your Deposit"
+    },
+    {
+      "type": "paragraph",
+      "content": "To reserve your spot, please submit a $1,600 USD deposit per person (airfare included) via the registration form:"
+    },
+    { 
+      "type": "link", 
+      "content": "🔗 Deposit & Registration Form", 
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdu8_wULSQBhaQKILgsiMJc-ppD0FQaBG2IVgQGFhHI5KyNEA/viewform?usp=dialog" 
+    },
+    {
+      "type": "heading",
+      "content": "Payment Methods:"
+    },
+    {
+      "type": "heading",
+      "content": "Zelle"
+    },
+    {
+      "type": "list",
+      "content": [
         "Name: KINGS INTERNATIONAL CULTURAL & CREATION",
         "Zelle ID: jekicc2020@gmail.com"
-    ]},
-    { "type": "list", "content": [
-        "Bank Transfer (Chase Bank)",
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "Bank Transfer (Chase Bank)"
+    },
+    {
+      "type": "list",
+      "content": [
         "Account Number: 922086209",
         "Routing Number: 322271627",
         "SWIFT Code: CHASUS33"
-    ]},
-    { "type": "paragraph", "content": "Once both your form and deposit are received, your spot will be confirmed. Get ready for an unforgettable cultural adventure!" },
-    { "type": "heading", "content": "Insurance Information" },
-    { "type": "paragraph", "content": "1. Taiwan Group Travel Insurance Coverage (Included)" },
-    { "type": "list", "content": [
-        "Accidental Death Benefit: NTD 3,000,000 / traveler",
-        "Accidental Disability Benefit: up to NTD 3,000,000 / traveler",
-        "Accidental Medical Expenses: NTD 200,000 / traveler",
-        "Travel Document Loss/Replacement: up to NTD 2,000 / traveler",
-        "Emergency Expenses for Family Members: up to NTD 100,000 / traveler",
-        "Maximum Benefit per Accident: NTD 100,000"
-    ]},
-    { "type": "paragraph", "content": "2. U.S. IMG Insurance (Included)" },
-    { "type": "list", "content": [
-        "Maximum Coverage Limit: up to USD 500,000",
-        "Coverage Includes:",
-        "Accidental Death & Dismemberment",
-        "Accident & Sickness Medical Expenses",
-        "Emergency Medical Evacuation & Repatriation (per policy terms)",
-        "Additional benefits subject to IMG policy conditions"
-    ]},
-    { "type": "paragraph", "content": "3. Optional Trip Cancellation Insurance" },
-    { "type": "list", "content": [
-        "Not included in travel cose",
-        "To add, please contact:"
-    ]},
-    { "type": "paragraph", "content": "Charlene Yeh" },
-    { "type": "paragraph", "content": "📞(540) 364-2726" },
-    { "type": "link", "content": "🌐My IMG Website", "url": "https://www.imglobal.com/img-producer-insurance-plans?imgac=543497&app_method=2&svi=1" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Once both your form and deposit are received, your spot will be confirmed. Get ready for an unforgettable cultural adventure!"
+    },
+    {
+      "type": "heading",
+      "content": "Important Resources"
+    },
+    {
+      "type": "paragraph",
+      "content": "2026 The Meadows School Taiwan Itinerary"
+    },
+    {
+      "type": "link",
+      "content": "View Itinerary",
+      "url": "https://2026The Meadows School.vercel.app/#itinerary"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hotel Information: Included in itinerary link above"
+    },
+    {
+      "type": "paragraph",
+      "content": "Agreement (Full Version)"
+    },
+    {
+      "type": "link",
+      "content": "View Agreement",
+      "url": "https://2026The Meadows School.vercel.app/agreement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notes & Remarks"
+    },
+    {
+      "type": "link",
+      "content": "View Notes",
+      "url": "https://2026The Meadows School.vercel.app/note-remarks"
+    },
+    {
+      "type": "heading",
+      "content": "Travel Insurance Overview"
+    },
+    {
+      "type": "heading",
+      "content": "🌏 Patriot Lite Travel Medical Insurance"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Coverage for unexpected illnesses and accidents",
+        "COVID-19 treated the same as any other illness",
+        "Policy limits: US$50,000 – US$1,000,000",
+        "Emergency Medical The Meadows Schoolcuation: up to US$1,000,000"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "🌏 Taiwan Group Travel Insurance (Per Traveler)"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Accidental Death Benefit – NTD 3,000,000",
+        "Accidental Disability Benefit (max) – NTD 3,000,000",
+        "Accidental Medical Expenses – NTD 200,000",
+        "Travel Document Loss/Replacement – NTD 2,000",
+        "Family Member / Insured Expenses – NTD 100,000 (included above)",
+        "Max Benefit per Accident – NTD 100,000"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "Trip Cancellation & Add-On Coverage"
+    },
+    {
+      "type": "paragraph",
+      "content": "Additional insurance options such as Trip Cancellation, Medical, or Extra Coverage are available upon request."
+    },
+    {
+      "type": "paragraph",
+      "content": "Contact for Assistance:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Charlene Yeh – Insurance Agent"
+    },
+    {
+      "type": "list",
+      "content": [
+        "(510) 364-2726",
+        "cy.socal@gmail.com"
+      ]
+    },
+    { 
+      "type": "link", 
+      "content": "🌐Add-on insurance (optional)", 
+      "url": "https://www.imglobal.com/img-producer-insurance-plans?imgac=543497&app_method=2&svi=1" 
+    },
+    {
+      "type": "paragraph",
+      "content": "such as trip cancellation or medical coverage — can be purchased separately.  Here, you can enter your information and get an instant quote."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Trip cancellation insurance is not included in the total travel cost.",
+        "It must be purchased separately if desired."
+      ]
+    }
   ]
 }

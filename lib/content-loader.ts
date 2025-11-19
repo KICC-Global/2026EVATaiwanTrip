@@ -29,6 +29,14 @@ import importantInfoEn from '@/content/importantInfo.en.json';
 import importantInfoZhTw from '@/content/importantInfo.zh-TW.json';
 import importantInfoZhCn from '@/content/importantInfo.zh-CN.json';
 
+// New JSON content for Agreement & Notes (same schema as Important Info)
+import agreementEn from '@/content/agreement.en.json';
+import agreementZhTw from '@/content/agreement.zh-TW.json';
+import agreementZhCn from '@/content/agreement.zh-CN.json';
+import noteRemarksEn from '@/content/noteRemarks.en.json';
+import noteRemarksZhTw from '@/content/noteRemarks.zh-TW.json';
+import noteRemarksZhCn from '@/content/noteRemarks.zh-CN.json';
+
 // Dynamic/Generated content imports
 import { imagesByDay } from '@/lib/images_by_day';
 import itineraryByLang from '@/generated/itinerary_by_lang.json';
@@ -48,6 +56,8 @@ export function getSiteContent(): SiteContent {
       footer: footerEn,
       emergency: emergencyEn,
       importantInfo: importantInfoEn as ImportantInfoContent,
+      agreement: agreementEn as ImportantInfoContent,
+      noteRemarks: noteRemarksEn as ImportantInfoContent,
     },
     'zh-TW': {
       nav: navZhTw,
@@ -59,6 +69,8 @@ export function getSiteContent(): SiteContent {
       footer: footerZhTw,
       emergency: emergencyZhTw,
       importantInfo: importantInfoZhTw as ImportantInfoContent,
+      agreement: agreementZhTw as ImportantInfoContent,
+      noteRemarks: noteRemarksZhTw as ImportantInfoContent,
     },
     'zh-CN': {
       nav: navZhCn,
@@ -70,20 +82,22 @@ export function getSiteContent(): SiteContent {
       footer: footerZhCn,
       emergency: emergencyZhCn,
       importantInfo: importantInfoZhCn as ImportantInfoContent,
+      agreement: agreementZhCn as ImportantInfoContent,
+      noteRemarks: noteRemarksZhCn as ImportantInfoContent,
     },
   };
 
   // 2. Patch/Inject dynamic and file-based content
   const finalContent = { ...baseContent };
 
-  // Inject HTML from pre-generated file
-  finalContent.en.agreementHtml = htmlContent.agreement_en;
-  finalContent.en.noteRemarksHtml = htmlContent.notes_en;
-  finalContent['zh-TW'].agreementHtml = htmlContent.agreement_zh_tw;
-  finalContent['zh-TW'].noteRemarksHtml = htmlContent.notes_zh_tw;
+  // Fallback: if JSON blocks are missing, keep legacy HTML injection
+  if (!finalContent.en.agreement) finalContent.en.agreementHtml = htmlContent.agreement_en;
+  if (!finalContent.en.noteRemarks) finalContent.en.noteRemarksHtml = htmlContent.notes_en;
+  if (!finalContent['zh-TW'].agreement) finalContent['zh-TW'].agreementHtml = htmlContent.agreement_zh_tw;
+  if (!finalContent['zh-TW'].noteRemarks) finalContent['zh-TW'].noteRemarksHtml = htmlContent.notes_zh_tw;
   if (finalContent['zh-CN']) {
-    finalContent['zh-CN'].agreementHtml = htmlContent.agreement_zh_cn;
-    finalContent['zh-CN'].noteRemarksHtml = htmlContent.notes_zh_cn;
+    if (!finalContent['zh-CN'].agreement) finalContent['zh-CN'].agreementHtml = htmlContent.agreement_zh_cn;
+    if (!finalContent['zh-CN'].noteRemarks) finalContent['zh-CN'].noteRemarksHtml = htmlContent.notes_zh_cn;
   }
 
   // Inject itinerary details and images (re-using the logic from content_with_images.ts)
@@ -95,12 +109,25 @@ export function getSiteContent(): SiteContent {
   return finalContent;
 }
 
+function deriveDayTag(dayLabel: string | undefined, idx: number): string {
+  if (typeof dayLabel === 'string') {
+    const match = dayLabel.match(/\d+/);
+    if (match) {
+      const numeric = parseInt(match[0], 10);
+      if (!Number.isNaN(numeric)) {
+        return `d${numeric}`;
+      }
+    }
+  }
+  return `d${idx + 1}`;
+}
+
 // Helper function to patch a single language's content (adapted from content_with_images.ts)
 function patchLanguage(lc: LanguageSpecificContent, langKey: 'en' | 'zh-TW' | 'zh-CN'): LanguageSpecificContent {
   const days = lc.itinerary.days.map((d, idx) => {
     const jsonKey = String(idx + 1);
     const longHtmlFromDocs = (itineraryByLang as any)?.[langKey]?.[jsonKey] as string | undefined;
-    const tag = `d${idx + 1}` as const;
+    const tag = deriveDayTag(d.day, idx);
     const imgs = imagesByDay[tag] || d.images || [];
     return { ...d, images: imgs, longHtml: longHtmlFromDocs };
   });
@@ -116,13 +143,18 @@ function patchLanguage(lc: LanguageSpecificContent, langKey: 'en' | 'zh-TW' | 'z
 
 function buildGalleryImages(lc: LanguageSpecificContent): GalleryImage[] {
   const byDay: GalleryImage[] = [];
-  for (let n = 1; n <= 9; n++) {
-    const tag = `d${n}`;
-    const idx = n - 1;
-    const dayTitle = lc.itinerary.days[idx]?.title || lc.gallery.tags?.[tag] || `Day ${n}`;
+  const totalDays = lc.itinerary.days.length;
+
+  for (let idx = 0; idx < totalDays; idx++) {
+    const day = lc.itinerary.days[idx];
+    const tag = deriveDayTag(day?.day, idx);
+    const tagConfig = lc.gallery.tags?.[tag];
+    const fallbackLabel = `Day ${tag.slice(1) || idx + 1}`;
+    const tagLabel = tagConfig?.label ?? fallbackLabel;
+    const dayTitle = day?.title || tagLabel;
     const srcs = imagesByDay[tag] || [];
     srcs.forEach((src) => {
-      byDay.push({ src, alt: `${lc.gallery.tags?.[tag] || `Day ${n}`}: ${dayTitle}`, tags: [tag] });
+      byDay.push({ src, alt: `${tagLabel}: ${dayTitle}`, tags: [tag] });
     });
   }
   return byDay;

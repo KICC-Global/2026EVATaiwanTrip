@@ -5,8 +5,8 @@ import { cookies } from "next/headers";
 import { getSiteContent } from "@/lib/content-loader";
 
 export const metadata: Metadata = {
-  title: "2026 The Meadows School  台湾文化及志工之旅",
-  description: "专为美国高中生设计的 9 天台湾文化沉浸行程，体验传统与现代、自然与人文的丰富面貌。",
+  title: "2026 The Meadows School Taiwan Trip",
+  description: "2026 The Meadows School Taiwan Trip",
 };
 
 export default function RootLayout({

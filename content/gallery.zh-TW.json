@@ -1,6 +1,21 @@
 {
   "title": "旅程精彩瞬間",
   "subtitle": "透過鏡頭，回味旅途中的每一份感動。",
-  "filters": { "all": "全部", "day": "天數", "theme": "主題" },
-  "tags": { "d0": "第0天", "d1": "第1天", "d2": "第2天", "d3": "第3天", "d4": "第4天", "d5": "第5天", "d6": "第6天", "d7": "第7天", "d8": "第8天" }
+  "filters": {
+    "all": "全部",
+    "day": "天數",
+    "theme": "主題"
+  },
+  "tags": {
+    "d1": { "label": "第1天", "visible": true },
+    "d2": { "label": "第2天", "visible": true },
+    "d3": { "label": "第3天", "visible": true },
+    "d4": { "label": "第4天", "visible": true },
+    "d5": { "label": "第5天", "visible": true },
+    "d6": { "label": "第6天", "visible": true },
+    "d7": { "label": "第7天", "visible": true },
+    "d8": { "label": "第8天", "visible": true },
+    "d9": { "label": "第9天", "visible": true },
+    "d10": { "label": "第10天", "visible": true }
+  }
 }

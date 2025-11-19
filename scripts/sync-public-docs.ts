@@ -7,9 +7,9 @@ const PUBLIC_DOC_DIR = path.resolve('public', 'docs');
 // Defines which files to sync from Doc/ to public/docs/
 // Key: source filename in Doc/, Value: destination filename in public/docs/
 const filesToSync = {
-  '2026 The Meadows School  AGREEMENT AND RELEASE.pdf': '2026-The-Meadows-School-AGREEMENT-AND-RELEASE.pdf',
-  '2026 The Meadows School Note Remarks.pdf': '2026-The-Meadows-School-Note-Remarks.pdf',
-  '2026 Taiwan Trip - Registration Form & Payment Instructions.pdf': '2026-Taiwan-Trip-Registration-Form-Payment-Instructions.pdf',
+  '2026 The Meadows School  AGREEMENT AND RELEASE.pdf': '2026-The Meadows School-AGREEMENT-AND-RELEASE.pdf',
+  '2026 The Meadows School  Note Remarks.pdf': '2026-The Meadows School-Note-Remarks.pdf',
+  '2026 Taiwan Trip - Important Information.pdf': '2026-Taiwan-Trip-Important-Information.pdf',
 };
 
 function syncPublicDocs(): void {

@@ -37,13 +37,24 @@ export interface ItineraryItem {
 
 export interface ItineraryContent {
   title: string;
+  titleUrl?: string;
   subtitle: string;
+  // Optional intro video link shown under subtitle
+  introVideo?: {
+    label: string;
+    url: string;
+  };
   modal: {
     close: string;
     details: string;
     gallery: string;
   };
   days: ItineraryItem[];
+}
+
+export interface GalleryTagConfig {
+  label: string;
+  visible?: boolean;
 }
 
 export interface GalleryImage {
@@ -60,7 +71,7 @@ export interface GalleryContent {
     day: string;
     theme: string;
   };
-  tags: { [key: string]: string };
+  tags: { [key: string]: GalleryTagConfig };
   images?: GalleryImage[];
 }
 
@@ -94,8 +105,10 @@ export interface EmergencyContent {
 }
 
 export interface ImportantInfoContentBlock {
-  type: 'heading' | 'paragraph' | 'list' | 'link';
-  content: string | string[];
+  // Added 'html' to support rich sections when needed
+  // Extended to support 'table' blocks used in noteRemarks.* JSON
+  type: 'heading' | 'paragraph' | 'list' | 'link' | 'html' | 'table';
+  content: string | string[] | string[][];
   url?: string;
 }
 
@@ -114,6 +127,9 @@ export interface LanguageSpecificContent {
   footer: FooterContent;
   emergency: EmergencyContent;
   importantInfo: ImportantInfoContent;
+  // New: block-based content for Agreement & Notes (same schema as Important Info)
+  agreement?: ImportantInfoContent;
+  noteRemarks?: ImportantInfoContent;
   noteRemarksHtml?: string; // raw HTML for Notes & Remarks
   agreementHtml?: string; // raw HTML for Agreement & Release
 }
@@ -123,3 +139,4 @@ export interface SiteContent {
   'zh-TW': LanguageSpecificContent;
   'zh-CN'?: LanguageSpecificContent;
 }
+

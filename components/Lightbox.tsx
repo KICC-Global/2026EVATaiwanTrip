@@ -1,8 +1,9 @@
-"use client";
+'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { X } from 'lucide-react';
+import Image from 'next/image';
 import { GalleryImage } from '@/types';
 
 interface LightboxProps {
@@ -83,10 +84,12 @@ const Lightbox: React.FC<LightboxProps> = ({ images, startIndex, onClose }) => {
 
           <div className="w-full h-full bg-black/20 rounded-lg flex items-center justify-center">
             {current ? (
-              <img
+              <Image
                 src={current.src}
                 alt={current.alt}
-                className="max-w-full max-h-[92vh] w-auto h-auto object-contain shadow-2xl"
+                fill
+                sizes="100vw"
+                className="object-contain shadow-2xl"
                 loading="eager"
               />
             ) : null}
@@ -104,4 +107,3 @@ const Lightbox: React.FC<LightboxProps> = ({ images, startIndex, onClose }) => {
 };
 
 export default Lightbox;
-

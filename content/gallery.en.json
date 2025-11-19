@@ -7,6 +7,15 @@
     "theme": "Theme"
   },
   "tags": {
-    "d0": "Day0", "d1": "Day1", "d2": "Day2", "d3": "Day3", "d4": "Day4", "d5": "Day5", "d6": "Day6", "d7": "Day7", "d8": "Day8"
+    "d1": { "label": "Day 1", "visible": true },
+    "d2": { "label": "Day 2", "visible": true },
+    "d3": { "label": "Day 3", "visible": true },
+    "d4": { "label": "Day 4", "visible": true },
+    "d5": { "label": "Day 5", "visible": true },
+    "d6": { "label": "Day 6", "visible": true },
+    "d7": { "label": "Day 7", "visible": true },
+    "d8": { "label": "Day 8", "visible": true },
+    "d9": { "label": "Day 9", "visible": true },
+    "d10": { "label": "Day 10", "visible": true }
   }
 }

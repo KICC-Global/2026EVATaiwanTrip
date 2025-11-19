@@ -1,40 +1,187 @@
 {
   "title": "重要信息",
   "blocks": [
-    { "type": "heading", "content": "第一步 – 完成报名表格" },
-    { "type": "paragraph", "content": "● 同意书确认：" },
-    { "type": "paragraph", "content": "请勾选此框以确认：「我已仔细阅读并完全同意《协议与免责声明》的所有条款，并同意该学生参加 2026 SHS 环台之旅 - 农历新年文化交流。」" },
-    { "type": "paragraph", "content": "● 上传护照复印件：" },
-    { "type": "paragraph", "content": "请确保护照的照片页和到期日清晰可见。您的护照在旅程结束后必须至少还有 6 个月的有效期。" },
-    { "type": "heading", "content": "第二步 – 提交订金" },
-    { "type": "paragraph", "content": "为预留您的名額，请透过报名表提交每人 500 美元的订金（含机票）：" },
-    { "type": "link", "content": "🔗 订金与报名表", "url": "https://docs.google.com/forms/d/181A3zPZ1Uz8d6p37tw9dTlJb8cO7yXJw1zs01VXaczg/edit?usp=drive_web&ouid=114629800055913372206" },
-    { "type": "paragraph", "content": "付款方式：" },
-    { "type": "list", "content": [
-        "Zelle",
-        "收款人姓名：KINGS INTERNATIONAL CULTURAL & CREATION",
+    {
+      "type": "heading",
+      "content": "2026 The Meadows School 探索·体验·连结 — 台湾全球视野沉浸计划"
+    },
+    {
+      "type": "heading",
+      "content": "步骤1 – 完成注册表"
+    },
+    {
+      "type": "heading",
+      "content": "协议确认："
+    },
+    {
+      "type": "paragraph",
+      "content": "请勾选方框以确认："
+    },
+    {
+      "type": "paragraph",
+      "content": "\"我已仔细阅读并完全同意协议书与免责声明的所有条款，并同意学生参与2026 The Meadows School 探索·体验·连结 — 台湾全球视野沉浸计划\""
+    },
+    {
+      "type": "heading",
+      "content": "上传护照影本："
+    },
+    {
+      "type": "paragraph",
+      "content": "请确保护照照片页面和到期日期清晰可见。您的护照必须在行程结束后至少6个月有效。"
+    },
+    {
+      "type": "heading",
+      "content": "步骤2 – 提交订金"
+    },
+    {
+      "type": "paragraph",
+      "content": "为确保您的名额，请通过注册表提交每人1,600美元订金（含机票）："
+    },
+    {
+      "type": "link",
+      "content": "🔗 订金与注册表",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdu8_wULSQBhaQKILgsiMJc-ppD0FQaBG2IVgQGFhHI5KyNEA/viewform?usp=dialog"
+    },
+    {
+      "type": "heading",
+      "content": "付款方式："
+    },
+    {
+      "type": "heading",
+      "content": "Zelle"
+    },
+    {
+      "type": "list",
+      "content": [
+        "户名：KINGS INTERNATIONAL CULTURAL & CREATION",
         "Zelle ID：jekicc2020@gmail.com"
-    ]},
-    { "type": "list", "content": [
-        "银行转帐 (Chase Bank)",
-        "帐户号码：922086209",
-        "银行代码 (Routing Number)：322271627",
-        "SWIFT 代码：CHASUS33"
-    ]},
-    { "type": "paragraph", "content": "收到您的表格和订金后，您的名额即获确认。准备好迎接一场难忘的文化冒险吧！" },
-    { "type": "heading", "content": "保险信息" },
-    { "type": "paragraph", "content": "自选行程取消保险" },
-    { "type": "paragraph", "content": "如果您想增加行程取消保险，请联系：Charlene Yeh" },
-    { "type": "paragraph", "content": "📞 (510) 364-2726" },
-    { "type": "paragraph", "content": "注意：行程取消保险不包含在旅费中。" },
-    { "type": "paragraph", "content": "内含的台湾团体旅游保险范围：" },
-    { "type": "list", "content": [
-        "意外身故理赔 – 每位旅客人民币 3,000,000 元",
-        "意外伤残理赔 – 每位旅客最高人民币 3,000,000 元",
-        "意外医疗费用 – 每位旅客人民币 200,000 元",
-        "旅行证件遗失/补办 – 每位旅客最高人民币 2,000 元",
-        "家属紧急处理费用 – 每位旅客最高人民币 100,000 元",
-        "每次事故最高理赔 – 人民币 100,000 元"
-    ]}
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "银行转账（Chase Bank）"
+    },
+    {
+      "type": "list",
+      "content": [
+        "账户号码：922086209",
+        "路由号码：322271627",
+        "SWIFT代码：CHASUS33"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "一旦收到您的表格和订金，您的名额将被确认。准备好迎接一次难忘的文化冒险！"
+    },
+    {
+      "type": "heading",
+      "content": "额外资源"
+    },
+    {
+      "type": "paragraph",
+      "content": "2026 The Meadows School台湾行程"
+    },
+    {
+      "type": "link",
+      "content": "查看行程",
+      "url": "https://2026The Meadows School.vercel.app/#itinerary"
+    },
+    {
+      "type": "paragraph",
+      "content": "酒店信息：包含在上述行程链接中"
+    },
+    {
+      "type": "paragraph",
+      "content": "协议（完整版本）"
+    },
+    {
+      "type": "link",
+      "content": "查看协议",
+      "url": "https://2026The Meadows School.vercel.app/agreement"
+    },
+    {
+      "type": "paragraph",
+      "content": "备注说明："
+    },
+    {
+      "type": "link",
+      "content": "查看备注",
+      "url": "https://2026The Meadows School.vercel.app/note-remarks"
+    },
+    {
+      "type": "heading",
+      "content": "旅游保险总览"
+    },
+    {
+      "type": "heading",
+      "content": "🌏 Patriot Lite 旅行医疗保险"
+    },
+    {
+      "type": "list",
+      "content": [
+        "涵盖突发疾病与意外事故",
+        "COVID-19 的理赔与一般疾病相同",
+        "保单限额：美元 50,000–1,000,000",
+        "紧急医疗撤离：最高美元 1,000,000"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "🌏 台湾团体旅行保险（每位旅客）"
+    },
+    {
+      "type": "list",
+      "content": [
+        "意外身故给付—新台币 3,000,000",
+        "意外伤残给付（最高）—新台币 3,000,000",
+        "意外医疗费用—新台币 200,000",
+        "旅行证件遗失／补发—新台币 2,000",
+        "家属／被保险人费用—新台币 100,000（包含于上列）",
+        "单次事故最高给付—新台币 100,000"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "行程取消与加购保障"
+    },
+    {
+      "type": "paragraph",
+      "content": "可按需加购行程取消、医疗或其他额外保障。"
+    },
+    {
+      "type": "paragraph",
+      "content": "联系协助："
+    },
+    {
+      "type": "paragraph",
+      "content": "Charlene Yeh—保险代理人"
+    },
+    {
+      "type": "list",
+      "content": [
+        "(510) 364-2726",
+        "cy.socal@gmail.com"
+      ]
+    },
+    { 
+      "type": "link", 
+      "content": "🌐附加保险（可选）", 
+      "url": "https://www.imglobal.com/img-producer-insurance-plans?imgac=543497&app_method=2&svi=1" 
+    },
+    {
+      "type": "paragraph",
+      "content": "例如行程取消或医疗保险—可以另外购买。您可以在这里输入您的信息并立即获得报价。"
+    },
+    {
+      "type": "paragraph",
+      "content": "备注"
+    },
+    {
+      "type": "list",
+      "content": [
+        "行程取消保险未包含在总旅行费用内。",
+        "如需此保障，需另外购买。"
+      ]
+    }
   ]
 }

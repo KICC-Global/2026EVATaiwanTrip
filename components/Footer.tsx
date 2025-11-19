@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FooterContent, Language } from '@/types';
 
 interface FooterProps {
@@ -11,9 +12,11 @@ const Footer: React.FC<FooterProps> = ({ content, lang = 'zh' }) => {
     <footer className="bg-brand-text text-white py-8">
       <div className="container mx-auto px-6 text-center">
         <div className="mb-4 flex flex-col items-center">
-          <img
+          <Image
             src="/images/KICC_GE-removebg-preview-modified.png"
             alt="KICC GE Logo"
+            width={320}
+            height={80}
             className="h-20 w-auto object-contain mb-3"
           />
           <p className="font-bold">{content.contact}: jekicc2020@gmail.com</p>
@@ -28,4 +31,3 @@ const Footer: React.FC<FooterProps> = ({ content, lang = 'zh' }) => {
 };
 
 export default Footer;
-

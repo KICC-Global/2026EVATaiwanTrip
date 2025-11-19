@@ -6,7 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ImportantInfoContentBlock } from '@/types';
 import EmergencyModal from '@/components/EmergencyModal';
-import { AlertTriangle } from 'lucide-react';
+import { PhoneCall } from 'lucide-react';
 
 export default function ImportantInformationPage() {
   const { lang, setLang, currentContent } = useLanguageAndContent();
@@ -24,12 +24,12 @@ export default function ImportantInformationPage() {
   const renderBlock = (block: ImportantInfoContentBlock, index: number) => {
     switch (block.type) {
       case 'heading':
-        return <h2 key={index} className="text-2xl font-bold text-brand-text mt-6 mb-2">{block.content}</h2>;
+        return <h2 key={index}>{block.content}</h2>;
       case 'paragraph':
-        return <p key={index} className="text-gray-700 mb-2">{block.content}</p>;
+        return <p key={index}>{block.content}</p>;
       case 'list':
         return (
-          <ul key={index} className="list-disc list-inside text-gray-700 mb-2 ml-4">
+          <ul key={index}>
             {(block.content as string[]).map((item, itemIndex) => (
               <li key={itemIndex}>{item}</li>
             ))}
@@ -37,7 +37,7 @@ export default function ImportantInformationPage() {
         );
       case 'link':
         return (
-          <p key={index} className="text-blue-600 hover:underline mb-2">
+          <p key={index}>
             <a href={block.url} target="_blank" rel="noopener noreferrer">
               {block.content}
             </a>
@@ -61,17 +61,17 @@ export default function ImportantInformationPage() {
         <h1 className="text-4xl font-bold text-brand-red mb-8 text-center">
           {currentContent.importantInfo.title}
         </h1>
-        <div className="max-w-3xl mx-auto mb-6 text-center">
+        {/* <div className="max-w-3xl mx-auto mb-6 text-center">
           <a
             className="text-blue-600 hover:underline font-medium"
-            href="/docs/2026-Taiwan-Trip-Registration-Form-Payment-Instructions.pdf"
+            href="/docs/2026-Taiwan-Trip-Important-Information.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
             {lang === 'zh-TW' ? '下載 PDF' : (lang === 'zh-CN' ? '下载 PDF' : 'Download PDF')}
           </a>
-        </div>
-        <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+        </div> */}
+        <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg doc-html doc-notes">
           {currentContent.importantInfo.blocks.map(renderBlock)}
         </div>
       </main>
@@ -82,7 +82,7 @@ export default function ImportantInformationPage() {
         className="fixed bottom-6 right-6 bg-brand-red text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center z-50 hover:bg-red-800 transition-transform duration-300 hover:scale-110"
         aria-label={currentContent.emergency.button}
       >
-        <AlertTriangle size={32} />
+        <PhoneCall size={32} />
       </button>
 
       {isEmergencyOpen && (

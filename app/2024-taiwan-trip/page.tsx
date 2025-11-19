@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import EmergencyModal from '@/components/EmergencyModal';
-import { AlertTriangle } from 'lucide-react';
+import { PhoneCall } from 'lucide-react';
 import { useLanguageAndContent } from '@/contexts/LanguageContext';
 
 export default function TaiwanTrip2024Page() {
@@ -45,7 +45,7 @@ export default function TaiwanTrip2024Page() {
         className="fixed bottom-6 right-6 bg-brand-red text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center z-50 hover:bg-red-800 transition-transform duration-300 hover:scale-110"
         aria-label={currentContent.emergency.button}
       >
-        <AlertTriangle size={32} />
+        <PhoneCall size={32} />
       </button>
 
       {isEmergencyOpen && (

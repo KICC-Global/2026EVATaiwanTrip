@@ -4,7 +4,7 @@ import path from 'node:path';
 import process from 'node:process';
 import pdf from 'pdf-parse';
 
-const pdfPath: string = path.resolve('Doc', '2026 SHS  Note Remarks.pdf');
+const pdfPath: string = path.resolve('Doc', '2026 The Meadows School  Note Remarks.pdf');
 const outDir: string = path.resolve('generated');
 
 async function main(): Promise<void> {

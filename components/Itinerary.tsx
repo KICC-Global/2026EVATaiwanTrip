@@ -18,8 +18,26 @@ const Itinerary: React.FC<ItineraryProps> = ({ content, onItineraryClick }) => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold text-brand-red">{content.title}</h2>
+          {content.titleUrl ? (
+            <a href={content.titleUrl} target="_blank" rel="noopener noreferrer" className="inline-block">
+              <h2 className="text-4xl font-bold text-brand-red hover:underline">{content.title}</h2>
+            </a>
+          ) : (
+            <h2 className="text-4xl font-bold text-brand-red">{content.title}</h2>
+          )}
           <p className="text-lg text-gray-600 mt-2">{content.subtitle}</p>
+          {content.introVideo?.url && (
+            <div className="mt-4">
+              <a
+                href={content.introVideo.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-brand-red text-white font-bold py-2 px-6 rounded-full text-base hover:bg-red-800 transition-colors duration-300 shadow-md"
+              >
+                {content.introVideo.label || 'Intro Video'}
+              </a>
+            </div>
+          )}
         </motion.div>
 
         <div className="relative">
@@ -54,7 +72,7 @@ const Itinerary: React.FC<ItineraryProps> = ({ content, onItineraryClick }) => {
                       className={`bg-white p-6 rounded-lg shadow-lg cursor-pointer hover:shadow-xl transition-all mt-2 md:mt-0 ${nudgeClass}`}
                     >
                       <h3 className="text-xl font-bold text-brand-text">{item.title}</h3>
-                      <p className="text-gray-600 mt-2">{item.details}</p>
+                      <p className="text-gray-600 mt-2 whitespace-pre-line">{item.details}</p>
                     </div>
                   </div>
                 </div>

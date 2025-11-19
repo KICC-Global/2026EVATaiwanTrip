@@ -133,7 +133,7 @@ export const agreement_en = `<!DOCTYPE html>
     
     <div class="section-break">
         <h3>9. Travel Risks and Advisory Notices</h3>
-        <p>Enrollment and payment for the Program constitute acceptance of the risks inherent in international travel. The participant acknowledges that global events, travel advisories, or health concerns may require changes to accommodations, itinerary, or even cancellation of the trip. KICC commits to continuously monitoring safety conditions and health advisories for the destination, and will promptly communicate relevant risks and KICC's response measures to participants upon receiving official warnings.</p>
+        <p>Enrollment and payment for the Program constitute acceptance of the risks inherent in international travel. The participant acknowledges that global events, travel advisories, or health concerns may require changes to accommodations, itinerary, or even cancellation of the trip. KICC commits to continuously monitoring safety conditions and health advisories for the destination, and will promptly communicate relThe Meadows Schoolnt risks and KICC's response measures to participants upon receiving official warnings.</p>
         
         <h3>10. Right to Adjust Itinerary</h3>
         <p>KICC reserves the right to adjust or change the itinerary in the interest of Program operation and participant safety.</p>

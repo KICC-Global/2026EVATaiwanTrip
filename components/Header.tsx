@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import { NavContent, Language } from '@/types';
 
@@ -35,18 +36,20 @@ const Header: React.FC<HeaderProps> = ({ content, lang, setLang, isMobileMenuOpe
     { href: '/agreement', text: agreementLabel },
   ];
 
-  const applyNowLabel = lang === 'zh-TW' ? '立即報名' : (lang === 'zh-CN' ? '立即报名' : 'Apply Now');
+  // const applyNowLabel = lang === 'zh-TW' ? '立即報名' : (lang === 'zh-CN' ? '立即报名' : 'Apply Now');
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-brand-bg/80 backdrop-blur-sm z-40 shadow-md">
       <div className="w-full max-w-[1600px] mx-auto px-6 py-3 flex justify-between items-center">
         <a href="/" className="flex items-center space-x-3">
-          <img
+          <Image
             src="/images/KICC_GE-removebg-preview.png"
             alt="KICC GE Logo"
+            width={160}
+            height={40}
             className="h-10 w-auto object-contain"
           />
-          <div className="text-xl font-bold text-brand-red">SHS Taiwan 2026</div>
+          <div className="text-xl font-bold text-brand-red">The Meadows School Taiwan 2026</div>
         </a>
 
         {/* Desktop Navigation */}
@@ -58,20 +61,20 @@ const Header: React.FC<HeaderProps> = ({ content, lang, setLang, isMobileMenuOpe
           ))}
           {/* Statement dropdown (desktop, hover-intent with delay) */}
           <DesktopStatementDropdown label={statementLabel} items={statementLinks} />
-          <a
+          {/* <a
             href="/2024-taiwan-trip"
             className="border border-brand-red text-brand-red font-semibold py-2 px-4 rounded-full hover:bg-red-50 transition-colors shadow"
           >
             2024 Taiwan Trip
-          </a>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfa-E5o5ywPfWWKjV-gY21oOT2pCO88EcgqC_tNDn-dC_IbtA/viewform"
+          </a> */}
+          {/* <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdu8_wULSQBhaQKILgsiMJc-ppD0FQaBG2IVgQGFhHI5KyNEA/viewform?usp=dialog"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-brand-red text-white font-semibold py-2 px-4 rounded-full hover:bg-red-800 transition-colors shadow"
           >
             {applyNowLabel}
-          </a>
+          </a> */}
           <LanguageSwitcher lang={lang} setLang={setLang} />
         </nav>
 
@@ -107,22 +110,22 @@ const Header: React.FC<HeaderProps> = ({ content, lang, setLang, isMobileMenuOpe
               items={statementLinks}
               onNavigate={() => setMobileMenuOpen(false)}
             />
-            <a
+            {/* <a
               href="/2024-taiwan-trip"
               className="border border-brand-red text-brand-red font-semibold py-2 px-4 rounded-full hover:bg-red-50 transition-colors shadow"
               onClick={() => setMobileMenuOpen(false)}
             >
               2024 Taiwan Trip
-            </a>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfa-E5o5ywPfWWKjV-gY21oOT2pCO88EcgqC_tNDn-dC_IbtA/viewform"
+            </a> */}
+            {/* <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdu8_wULSQBhaQKILgsiMJc-ppD0FQaBG2IVgQGFhHI5KyNEA/viewform?usp=dialog"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-brand-red text-white font-semibold py-2 px-4 rounded-full hover:bg-red-800 transition-colors shadow"
               onClick={() => setMobileMenuOpen(false)}
             >
               {applyNowLabel}
-            </a>
+            </a> */}
             <LanguageSwitcher lang={lang} setLang={setLang} />
           </nav>
         </motion.div>
