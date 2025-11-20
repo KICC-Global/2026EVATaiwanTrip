@@ -12,55 +12,55 @@
     "gallery": "Trip Photos"
   },
   "days": [
-      {
-        "day": "Day 1 (Apr 2, Thu)",
-        "title": "Departure Journey",
-        "details": "Travel to San Francisco (SFO) and depart at 1:05 on China Airlines flight CI003 bound for Taiwan Taoyuan International Airport (TPE).\nNote: You need to arrive at the airport on April 1 evening for the outbound flight."
-      },
-      {
-        "day": "Day 2 (Apr 3, Fri)",
-        "title": "Taipei: First Taste of Taiwan",
-        "details": "Arrive in Taiwan and immediately immerse in local culture with Maokong Gondola tea experience, ascend Taipei 101 for city views, and relax at Beitou Hot Springs."
-      },
-      {
-        "day": "Day 3 (Apr 4, Sat)",
-        "title": "Northern Coast: Where Sea Meets Sky",
-        "details": "Explore Taiwan's stunning northern coastline featuring Shimen terraced rice fields, the seasonal green reef phenomenon at Laomei, historic Jinshan Old Street, and the famous rock formations at Yehliu Geopark."
-      },
-      {
-        "day": "Day 4 (Apr 5, Sun)",
-        "title": "Miaoli: Hakka Culture & Traditional Crafts",
-        "details": "Experience authentic Hakka culture through temple visits, traditional lei cha tea grinding, hands-on tofu making, and explore Taiwan's renowned woodcarving artistry in Sanyi."
-      },
-      {
-        "day": "Day 5 (Apr 6, Mon)",
-        "title": "Creative Arts & Railway Heritage",
-        "details": "Learn traditional indigo dyeing techniques at Joye Cottage Resort and experience Taiwan's railway history with a railbike adventure at the historic Shengxing Station."
-      },
-      {
-        "day": "Day 6 (Apr 7, Tue)",
-        "title": "Changhua: Coastal Ecology & Ancient Heritage",
-        "details": "Discover marine life at Wanggong's intertidal zone, explore one of Taiwan's most significant temples at Lukang, and take a nostalgic rickshaw tour through centuries-old streets."
-      },
-      {
-        "day": "Day 7 (Apr 8, Wed)",
-        "title": "Chiayi Highlands & Tainan Historic Streets",
-        "details": "Challenge yourself on Taiwan's longest suspension bridge, savor high-mountain tea in misty bamboo plantations, then explore the creative charm of Tainan's historic Shennong Street by night."
-      },
-      {
-        "day": "Day 8 (Apr 9, Thu)",
-        "title": "Tainan: Ancient Capital Treasures",
-        "details": "Visit Taiwan's oldest Confucius Temple to trace educational heritage, explore creative districts in historic lanes, and experience unique mud hot springs with the mystical Water and Fire Cave."
-      },
-      {
-        "day": "Day 9 (Apr 10, Fri)",
-        "title": "Nantou Culture & Night Market Delights",
-        "details": "Learn traditional mochi making, admire modern Buddhist architecture at Chung Tai Chan Monastery, engage in cross-cultural exchange, and experience authentic Taiwanese night market culture."
-      },
-      {
-        "day": "Day 10 (Apr 11, Sat)",
-        "title": "Little Yunnan & Farewell",
-        "details": "Experience Taiwan's multicultural heritage in Longgang's 'Little Yunnan' community, enjoy a final traditional tea ceremony at You Zhu Ju Tea House, then depart Taiwan at 23:30 on China Airlines flight CI004 from TPE, arriving in San Francisco (SFO) at 19:55 the same day."
-      }
-    ]
+    {
+      "day": "Day 1 (Mar 13, Fri)",
+      "title": "Departure: Las Vegas to Seattle",
+      "details": "Fly from Las Vegas to Seattle on Alaska Airlines flight AS 749, beginning your cross-Pacific journey to Taiwan. Please arrive at LAS Airport early to complete check-in and baggage drop."
+    },
+    {
+      "day": "Day 2 (Mar 14, Sat)",
+      "title": "Trans-Pacific Flight: Seattle Nonstop to Taipei",
+      "details": "Depart Seattle in the early morning on STARLUX Airlines flight JX 31 to Taipei, arriving in Taiwan early on March 15. Rest on board and adjust to the time difference as you prepare for the upcoming itinerary."
+    },
+    {
+      "day": "Day 3 (Mar 15, Sun)",
+      "title": "First Look at Taipei: National Palace Museum × Ximending × Taipei 101 Night View",
+      "details": "After landing in Taiwan, visit the National Palace Museum to admire treasures of Chinese culture, then stroll through Ximending to experience youthful pop culture. In the evening, head to Taipei 101 to enjoy a panoramic city view."
+    },
+    {
+      "day": "Day 4 (Mar 16, Mon)",
+      "title": "International Education Exchange & Tamsui Riverside Sunset",
+      "details": "Visit Kang Chiao International School for a campus tour and student exchange activities. Enjoy a buffet lunch at the Grand Hotel Taipei, then move on to Tamsui Old Street in the afternoon to walk along the riverside and taste local snacks."
+    },
+    {
+      "day": "Day 5 (Mar 17, Tue)",
+      "title": "Volunteer Service × Indigenous Culture × Hakka Old Street & Temple Snacks",
+      "details": "Take part in volunteer service and Atayal indigenous cultural activities at Dayuan Elementary School. In the afternoon, visit Hukou Old Street to experience the charm of a traditional Hakka town, then head to the Hsinchu Chenghuang Temple area in the evening to enjoy classic temple-front street foods."
+    },
+    {
+      "day": "Day 6 (Mar 18, Wed)",
+      "title": "Heart of the Tech Island & Sun Moon Lake Gondola Experience",
+      "details": "In the morning, visit TSMC to learn about Taiwan’s semiconductor industry and technological innovation. In the afternoon, travel to Sun Moon Lake, ride the gondola to Formosan Aboriginal Culture Village, and visit Ita Thao to explore indigenous traditions."
+    },
+    {
+      "day": "Day 7 (Mar 19, Thu)",
+      "title": "Sun Moon Lake Cruise, Puli Paper Culture & Changhua Wetland Ecology",
+      "details": "Take a boat tour on Sun Moon Lake to enjoy alpine lake scenery, then head to Guangxing Paper Mill in Puli for a handmade paper DIY experience. Near sunset, visit Fangyuan Wetlands and the coastal boardwalk to discover intertidal ecology and west-coast views."
+    },
+    {
+      "day": "Day 8 (Mar 20, Fri)",
+      "title": "Alishan Tsou Tribal Culture × Hinoki Village Japanese Wooden Houses",
+      "details": "Dive into the Yuyupas Tsou cultural tribe, listening to stories of indigenous life and tasting traditional tribal cuisine. In the afternoon, return to Chiayi Hinoki Village to stroll among Japanese-style wooden houses and creative boutique streets."
+    },
+    {
+      "day": "Day 9 (Mar 21, Sat)",
+      "title": "High-Speed Rail Experience, Taoyuan City Shopping & Night Market Food Tour",
+      "details": "Take the high-speed rail from Chiayi northward via central Taiwan to Taoyuan. Visit the Kuo Yuan Ye Museum of Cake and Pastry for a pineapple cake DIY activity, then head to the A19 Global Mall for free-time shopping. At night, explore Zhongli Tourist Night Market and sample authentic Taiwanese street foods."
+    },
+    {
+      "day": "Day 10 (Mar 22, Sun)",
+      "title": "Little Yunnan Culture, Yingge Pottery DIY & Return Flights",
+      "details": "During the day, visit Longgang Zhongzhen New Village and the surrounding cultural area to experience overseas Yunnan–Myanmar flavors and cuisine. Then continue to Yingge Old Street for a pottery DIY workshop and an early dinner. In the evening, go to Taoyuan International Airport to board STARLUX Airlines flight JX 32 and connect to Alaska Airlines flight AS 478 back to Las Vegas."
+    }
+  ]
 }
