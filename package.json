@@ -12,11 +12,13 @@
     "inject:notes": "node scripts/update-note-remarks-html.mjs"
   },
   "dependencies": {
+    "axios": "1.13.5",
     "framer-motion": "^11.18.2",
     "lucide-react": "^0.395.0",
     "next": "14.2.32",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "socket.io-client": "4.8.3"
   },
   "devDependencies": {
     "@types/node": "^20",
