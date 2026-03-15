@@ -15,7 +15,6 @@
     "d6": { "label": "第6天", "visible": true },
     "d7": { "label": "第7天", "visible": true },
     "d8": { "label": "第8天", "visible": true },
-    "d9": { "label": "第9天", "visible": true },
-    "d10": { "label": "第10天", "visible": true }
+    "d9": { "label": "第9天", "visible": true }
   }
 }

@@ -15,7 +15,6 @@
     "d6": { "label": "Day 6", "visible": true },
     "d7": { "label": "Day 7", "visible": true },
     "d8": { "label": "Day 8", "visible": true },
-    "d9": { "label": "Day 9", "visible": true },
-    "d10": { "label": "Day 10", "visible": true }
+    "d9": { "label": "Day 9", "visible": true }
   }
 }
