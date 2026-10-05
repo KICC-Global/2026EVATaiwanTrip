@@ -60,8 +60,11 @@
       "type": "list",
       "content": [
         "Account Number: 922086209",
-        "Routing Number: 322271627",
-        "SWIFT Code: CHASUS33"
+        "U.S. Domestic Wire Routing / ABA: 021000021",
+        "SWIFT Code: CHASUS33",
+        "Beneficiary Business Address: 18031 Irvine Blvd, Unit 209, Tustin, CA 92780, USA",
+        "For wire transfers, KICC must receive the full amount due. The sender is responsible for all bank, wire, and intermediary fees; do not deduct fees from the payment amount.",
+        "Zelle is recommended when available because it generally avoids wire-transfer fees."
       ]
     },
     {
